@@ -108,8 +108,8 @@ export const PESQUISA = {
 };
 
 export const CV_TXT = {
-  pt: { titulo: 'Currículo', baixar: 'Baixar PDF', experiencia: 'Experiência', formacao: 'Formação', posdoc: 'Pós-doutorados', competencias: 'Competências', idiomas: 'Idiomas', cursos: 'Cursos' },
-  en: { titulo: 'Résumé', baixar: 'Download PDF', experiencia: 'Experience', formacao: 'Education', posdoc: 'Postdocs', competencias: 'Skills', idiomas: 'Languages', cursos: 'Courses' },
+  pt: { titulo: 'Currículo', baixar: 'Baixar PDF', experiencia: 'Experiência', formacao: 'Formação', posdoc: 'Pós-doutorados', posdocUm: 'Pós-doutorado', competencias: 'Competências', idiomas: 'Idiomas', cursos: 'Cursos' },
+  en: { titulo: 'Résumé', baixar: 'Download PDF', experiencia: 'Experience', formacao: 'Education', posdoc: 'Postdocs', posdocUm: 'Postdoc', competencias: 'Skills', idiomas: 'Languages', cursos: 'Courses' },
 };
 
 // PDF do currículo por idioma (copiado para public/cv/ pelo scripts/importar-cv.py). null = sem botão.

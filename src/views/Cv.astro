@@ -32,15 +32,12 @@ const pdf = CV_PDF[lang];
 
 <h2 class="sec">{t.formacao}</h2>
 <ol class="tl">
+  {/* Do mais recente para o mais antigo: pós-doutorados antes dos diplomas, como nos PDFs. */}
+  {CV.posdoc.map((p: any) => (
+    <li><span class="when">{p.periodo}</span><div><strong>{t.posdocUm}</strong> <span class="r">· {tr(p.area, lang)} · {tr(p.instituicao, lang)}</span>{p.detalhe && <p>{tr(p.detalhe, lang)}</p>}</div></li>
+  ))}
   {CV.formacao.map((f: any) => (
     <li><span class="when">{f.ano}</span><div><strong>{tr(f.grau, lang)}</strong> <span class="r">· {tr(f.instituicao, lang)}</span>{f.detalhe && <p set:html={md(tr(f.detalhe, lang))} />}</div></li>
-  ))}
-</ol>
-
-<h2 class="sec">{t.posdoc}</h2>
-<ol class="tl">
-  {CV.posdoc.map((p: any) => (
-    <li><span class="when">{p.periodo}</span><div><strong>{tr(p.area, lang)}</strong> <span class="r">· {tr(p.instituicao, lang)}</span>{p.detalhe && <p>{tr(p.detalhe, lang)}</p>}</div></li>
   ))}
 </ol>
 
