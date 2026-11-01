@@ -10,7 +10,7 @@ export const LINKS = {
 
 export const SOBRE = {
   pt: {
-    papel: 'Biólogo de formação, hoje engenheiro de dados e software.',
+    papel: 'Biólogo (PhD), cientista de dados e desenvolvedor.',
     lede: 'Durante uma década fiz perguntas a dados biológicos: filogeografia, herpetologia, genômica de populações. Hoje construo os sistemas que transformam dados ambientais e de campo em algo sobre o que um time consegue agir.',
     disponivel: 'Disponível.',
     busca: 'Busco vagas remotas como cientista de dados ou desenvolvedor em dados ambientais, ESG, biodiversidade ou pesquisa.',
@@ -25,7 +25,7 @@ export const SOBRE = {
     ],
   },
   en: {
-    papel: 'Zoologist by training, now a data and software engineer.',
+    papel: 'Biologist (PhD), data scientist and developer.',
     lede: 'For a decade I asked questions of biological data: phylogeography, herpetology, population genomics. Today I build the systems that turn environmental and field data into something a team can act on.',
     disponivel: 'Open to work.',
     busca: 'Looking for remote roles as a data scientist or developer in environmental data, ESG, biodiversity or research.',

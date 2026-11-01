@@ -98,7 +98,7 @@ export function iniciarTerminal(navegar: Navegar) {
   function saida(v: string) {
     const pt = st.lang === 'pt';
     if (v === 'sobre') {
-      print(`<span class="hi">Ricardo Silveira</span> · ${pt ? 'biólogo de formação, engenheiro de dados e software' : 'zoologist by training, data and software engineer'}`,
+      print(`<span class="hi">Ricardo Silveira</span> · ${pt ? 'biólogo (PhD), cientista de dados e desenvolvedor' : 'biologist (PhD), data scientist and developer'}`,
         `<span class="dim">${pt ? 'disponível para vagas remotas' : 'open to remote roles'}</span>`, nota());
     } else if (v === 'projetos') {
       const w = Math.max(...projetos().map((p) => p.slug.length)) + 3;
