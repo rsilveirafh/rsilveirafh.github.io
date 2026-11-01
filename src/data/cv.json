@@ -179,8 +179,8 @@
    "itens": [
     {
      "curto": true,
-     "pt": "*Pós-doutorado, UFRN/PPBio* (2022–2023): pipeline de listas de vertebrados brasileiros e da cobertura de dados genéticos (BOLD, GenBank), com dashboard público.",
-     "en": "*Postdoc, UFRN/PPBio* (2022–2023): pipeline for Brazilian vertebrate checklists and genetic data coverage (BOLD, GenBank), with a public dashboard."
+     "pt": "*Pós-doutorado, UFRN/PPBio* (2022–2023): pipeline de listas de vertebrados brasileiros e da cobertura de dados genéticos (BOLD, GenBank), que deu origem ao tetrapoDNA.",
+     "en": "*Postdoc, UFRN/PPBio* (2022–2023): pipeline for Brazilian vertebrate checklists and genetic data coverage (BOLD, GenBank), which grew into tetrapoDNA."
     },
     {
      "curto": true,
@@ -274,12 +274,12 @@
   },
   {
    "nome": {
-    "pt": "E-commerces em produção",
-    "en": "Online stores in production"
+    "pt": "Lojas virtuais para pequenos negócios",
+    "en": "Online stores for small businesses"
    },
    "curto": true,
-   "pt": "Para pequenos negócios (Next.js, Supabase, PIX, PWA), com configurador de produtos e precificação no back-end.",
-   "en": "For small businesses (Next.js, Supabase, PIX instant payments, PWA), with a product configurator and server-side pricing."
+   "pt": "Modelo de loja para confeitarias (Next.js, Supabase, PIX, PWA), com configurador de produtos e precificação no back-end. Duas lojas em desenvolvimento.",
+   "en": "A store template for confectioneries (Next.js, Supabase, PIX instant payments, PWA), with a product configurator and server-side pricing. Two stores in development."
   },
   {
    "nome": "Carona Solidária",
