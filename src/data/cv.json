@@ -82,13 +82,23 @@
     },
     {
      "curto": true,
+     "pt": "Escrevi o **manual de operação da área**: padrão de escrita de requisitos, fluxo de git, manutenção dos quadros de projeto e ciclo de entrega, da demanda ao repasse.",
+     "en": "Wrote the area's **operating manual**: how requirements are written, the git workflow, how project boards are kept and the delivery cycle, from request to handover."
+    },
+    {
+     "curto": true,
      "pt": "Medi o ganho de produtividade com IA generativa em três áreas da empresa (**cerca de 70% de redução de tempo**, com base nas horas apontadas) e escrevi a primeira política de uso de IA.",
      "en": "Measured the productivity gain from generative AI in three departments (**about 70% less time**, based on logged hours) and wrote the company's first AI usage policy."
     },
     {
      "curto": true,
-     "pt": "Entreguei dashboards de emissões e metas ESG (Power BI, DAX) e uma solução de analytics de geração hidrelétrica para um cliente do setor de energia (FastAPI, testes de tendência).",
-     "en": "Delivered emissions and ESG target dashboards (Power BI, DAX) and a hydropower generation analytics solution for an energy sector client (FastAPI, trend tests)."
+     "pt": "Entreguei inventários de emissões pelo **GHG Protocol**, na plataforma ESG e em dashboards de emissões e metas (Power BI, DAX), e uma solução de analytics de geração hidrelétrica para um cliente do setor de energia (FastAPI, testes de tendência).",
+     "en": "Delivered **GHG Protocol** emissions inventories, in the ESG platform and in emissions and target dashboards (Power BI, DAX), and a hydropower generation analytics solution for an energy sector client (FastAPI, trend tests)."
+    },
+    {
+     "curto": true,
+     "pt": "Criei ferramentas para o campo e a gestão: um **extrator de metadados de fotos de campo** (EXIF, OCR e geocodificação reversa, distribuído como executável único), um painel de avanço de inventário florestal para cliente (site estático que lê a planilha de campo no SharePoint pela Microsoft Graph) e um painel da jornada semanal da equipe.",
+     "en": "Built tools for field work and management: a **field photo metadata extractor** (EXIF, OCR and reverse geocoding, shipped as a single executable), a forest inventory progress dashboard for a client (a static site reading the field spreadsheet on SharePoint through Microsoft Graph) and a weekly team hours dashboard."
     },
     {
      "curto": false,
