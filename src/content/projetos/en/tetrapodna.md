@@ -3,7 +3,7 @@ nome: "tetrapoDNA"
 tipo: "open science"
 grupo: proprio
 resumo: "Which Brazilian amphibians, reptiles, birds and mammals still have no public DNA sequence at all?"
-stack: ["R", "GitHub Actions", "GitHub Pages"]
+stack: ["R", "taxize", "GitHub Actions", "GitHub Pages"]
 links:
   - { rotulo: "GitHub", url: "https://github.com/rsilveirafh/tetrapoDNA" }
   - { rotulo: "Live dashboard", url: "https://rsilveirafh.github.io/tetrapoDNA/" }
@@ -20,3 +20,5 @@ A public dashboard checks every species on the official checklists against BOLD 
 The R pipeline checks synonyms in the Brazilian Fauna Taxonomic Catalogue and GBIF before calling something a gap: a species that moved to another genus should not show up as “no DNA” just because its sequence sits under the old name.
 
 Researchers can publicly adopt a species to sequence, which turns the gap list into a work queue.
+
+The idea started in my postdoc at UFRN with PPBio (2022–2023), where I built the pipeline for vertebrate checklists and genetic data coverage. tetrapoDNA is the complete, public version of that work.
