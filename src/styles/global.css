@@ -65,8 +65,8 @@ img { max-width: 100%; }
 .lang a[aria-current="true"] { background: var(--ink); color: var(--screen); }
 
 .doc-body { flex: 1; overflow: auto; padding: clamp(22px, 4vw, 48px) clamp(16px, 4vw, 56px) 48px; outline: none; }
-.doc-body > * { max-width: 68ch; }
-.doc-body > .wide { max-width: 82ch; }
+/* O conteúdo ocupa a largura do monitor, com um teto para telas muito largas. */
+.doc-body > * { max-width: 1100px; }
 .doc-status { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 16px; padding: 7px clamp(16px, 3vw, 36px); border-top: 1px solid var(--line); font: .7rem var(--mono); color: var(--muted); }
 
 .path { font: 500 .74rem var(--mono); color: var(--accent); margin: 0 0 1.1em; }
@@ -92,7 +92,7 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .card .s { color: var(--muted); font-size: .9rem; line-height: 1.5; }
 .card .file { margin-top: auto; padding-top: 6px; font: .7rem var(--mono); color: var(--accent); }
 
-.how { display: grid; gap: 14px; margin: 0; }
+.how { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px 32px; margin: 0; }
 .how div { display: grid; gap: 2px; }
 .how dt { font-weight: 600; }
 .how dd { margin: 0; color: var(--muted); line-height: 1.6; }
