@@ -81,9 +81,9 @@ export const PESQUISA = {
     titulo: 'Pesquisa',
     texto: [
       'Antes dos dados e do software, foram mais de dez anos de pesquisa em biologia. Mestrado e doutorado em Zoologia na UFPB, sobre mimetismo e filogeografia de serpentes. Depois, dois pós-doutorados: ecologia vegetal no Cerrado, na UNEMAT, e conservação, biodiversidade e bioinformática na UFRN, junto ao PPBio.',
-      'São 15 artigos revisados por pares e 1 aceito, incluindo duas cartas na Science (2023 e 2024).',
+      'São 15 artigos revisados por pares e 1 aceito, incluindo duas cartas na Science (2023 e 2024). Aqui estão os trabalhos dos últimos três anos; a lista completa está no Lattes.',
     ],
-    publicacoes: 'Publicações',
+    publicacoes: 'Publicações recentes',
     aceito: 'aceito',
     tecnica: 'Produção técnica',
     coorientacoes: 'Coorientações',
@@ -95,9 +95,9 @@ export const PESQUISA = {
     titulo: 'Research',
     texto: [
       'Before data and software came more than ten years of biology research. An MSc and a PhD in Zoology at UFPB, on mimicry and phylogeography of snakes. Then two postdocs: plant ecology in the Cerrado at UNEMAT, and conservation, biodiversity and bioinformatics at UFRN with PPBio.',
-      'That adds up to 15 peer-reviewed papers and 1 accepted, including two letters in Science (2023 and 2024).',
+      'That adds up to 15 peer-reviewed papers and 1 accepted, including two letters in Science (2023 and 2024). Below is the work from the last three years; the full list is on Lattes.',
     ],
-    publicacoes: 'Publications',
+    publicacoes: 'Recent publications',
     aceito: 'accepted',
     tecnica: 'Technical reports (in Portuguese)',
     coorientacoes: 'Co-supervision (in Portuguese)',

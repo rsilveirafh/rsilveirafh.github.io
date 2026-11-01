@@ -6,20 +6,25 @@ import { CV, autores, md, tr } from '../lib/cv';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = PESQUISA[lang];
-const listas = [
+// Só os últimos três anos (o ano corrente e os dois anteriores); o resto fica no Lattes.
+const ate = new Date().getFullYear();
+const desde = ate - 2;
+const recente = (i: any) => parseInt(String(i.ano), 10) >= desde;
+const publicacoes = CV.publicacoes.filter(recente);
+const listas = ([
   [t.tecnica, CV.producao_tecnica],
   [t.coorientacoes, CV.coorientacoes],
   [t.bancas, CV.bancas],
   [t.ensino, CV.ensino],
-] as const;
+] as const).map(([titulo, itens]) => [titulo, itens.filter(recente)] as const).filter(([, itens]) => itens.length > 0);
 ---
 <Caminho lang={lang} arquivo={ARQUIVOS[lang].pesquisa} />
 <h1 class="title">{t.titulo}</h1>
 {t.texto.map((p, i) => <p class={i === 0 ? 'lede' : ''}>{p}</p>)}
 
-<h2 class="sec">{t.publicacoes}</h2>
+<h2 class="sec">{t.publicacoes} ({desde}–{ate})</h2>
 <ol class="papers">
-  {CV.publicacoes.map((p: any) => (
+  {publicacoes.map((p: any) => (
     <li>
       <span class="y">{p.ano}{p.status && ` · ${tr(p.status, lang)}`}</span>{' '}
       <span set:html={md(p.titulo)} />.{' '}
@@ -33,7 +38,7 @@ const listas = [
 
 {listas.map(([titulo, itens]) => (
   <>
-    <h2 class="sec">{titulo}</h2>
+    <h2 class="sec">{titulo} ({desde}–{ate})</h2>
     <ul class="itens">
       {itens.map((i: any) => <li><span class="r">{i.ano}{i.nivel && ` · ${i.nivel}`}</span> <span set:html={md(i.texto)} /></li>)}
     </ul>
