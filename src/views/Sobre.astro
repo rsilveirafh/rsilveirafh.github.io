@@ -11,9 +11,13 @@ const destaques = (await projetosDe(lang)).filter((p) => p.data.destaque);
 <Caminho lang={lang} arquivo={ARQUIVOS[lang].sobre} />
 <h1 class="name">Ricardo Silveira</h1>
 <p class="role">{t.papel}</p>
-<p class="lede">{t.lede}</p>
+{t.lede.map((p, i) => <p class={i === 0 ? 'lede' : ''}>{p}</p>)}
 <p class="avail"><span class="dot" aria-hidden="true"></span><span><strong>{t.disponivel}</strong> {t.busca}</span></p>
 <a class="btn" href={ROTAS[lang].contato} data-view="contato">{t.botao} <small>cat {ARQUIVOS[lang].contato}</small></a>
+<h2 class="sec">{t.numerosTitulo}</h2>
+<div class="facts facts--home wide">
+  {t.numeros.map(([n, l]) => <div><b>{n}</b><span>{l}</span></div>)}
+</div>
 <h2 class="sec">{t.destaque}</h2>
 <div class="cards wide">
   {destaques.map((p) => (

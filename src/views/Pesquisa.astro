@@ -1,16 +1,41 @@
 ---
 import Caminho from './Caminho.astro';
 import { ARQUIVOS, type Lang } from '../i18n';
-import { ARTIGOS, LINKS, PESQUISA } from '../data/perfil';
+import { LINKS, PESQUISA } from '../data/perfil';
+import { CV, autores, md, tr } from '../lib/cv';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = PESQUISA[lang];
+const listas = [
+  [t.tecnica, CV.producao_tecnica],
+  [t.coorientacoes, CV.coorientacoes],
+  [t.bancas, CV.bancas],
+  [t.ensino, CV.ensino],
+] as const;
 ---
 <Caminho lang={lang} arquivo={ARQUIVOS[lang].pesquisa} />
 <h1 class="title">{t.titulo}</h1>
-<p>{t.texto}</p>
-<h2 class="sec">{t.selecao}</h2>
+{t.texto.map((p, i) => <p class={i === 0 ? 'lede' : ''}>{p}</p>)}
+
+<h2 class="sec">{t.publicacoes}</h2>
 <ol class="papers">
-  {ARTIGOS.map((a) => <li>{a.titulo} <em>{a.revista}</em> {a.ref} <span class="y">({a.ano})</span></li>)}
+  {CV.publicacoes.map((p: any) => (
+    <li>
+      <span class="y">{p.ano}{p.status && ` · ${tr(p.status, lang)}`}</span>{' '}
+      <span set:html={md(p.titulo)} />.{' '}
+      <em>{p.revista}</em>{p.detalhes && ` ${p.detalhes}`}.
+      <span class="aut" set:html={autores(p.autores)} />
+      {p.doi && <a class="doi" href={`https://doi.org/${p.doi}`} target="_blank" rel="noopener">doi:{p.doi}</a>}
+    </li>
+  ))}
 </ol>
 <p style="margin-top:1.4em"><a href={LINKS.lattes} target="_blank" rel="noopener">{t.completa} ↗</a></p>
+
+{listas.map(([titulo, itens]) => (
+  <>
+    <h2 class="sec">{titulo}</h2>
+    <ul class="itens">
+      {itens.map((i: any) => <li><span class="r">{i.ano}{i.nivel && ` · ${i.nivel}`}</span> <span set:html={md(i.texto)} /></li>)}
+    </ul>
+  </>
+))}

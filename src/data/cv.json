@@ -1,0 +1,694 @@
+{
+ "pessoa": {
+  "nome": "Ricardo Rodrigues da Silveira Filho",
+  "nome_citacao": "Silveira-Filho, R.R.",
+  "titulo": {
+   "pt": "Biólogo (PhD) · Cientista de Dados · Desenvolvedor",
+   "en": "Biologist (PhD) · Data Scientist · Developer"
+  },
+  "titulo_academico": {
+   "pt": "Biólogo (PhD em Zoologia) · Cientista de Dados · Desenvolvedor",
+   "en": "Biologist (PhD in Zoology) · Data Scientist · Developer"
+  },
+  "local": {
+   "pt": "Natal, RN · remoto",
+   "en": "Natal, Brazil · remote"
+  },
+  "email": "rsilveirafh@gmail.com",
+  "linkedin": "linkedin.com/in/rsilveirafh",
+  "github": "github.com/rsilveirafh",
+  "lattes": "lattes.cnpq.br/6028156427352678"
+ },
+ "resumo": {
+  "pt": "Cientista de dados e desenvolvedor, com doutorado em Zoologia e dois pós-doutorados. Nos últimos dois anos, liderei a área de Inovação de uma consultoria ambiental como Product Owner e Tech Lead: sistemas internos usados pela empresa inteira, uma plataforma SaaS de gestão ESG, uma suíte de coleta de dados de campo e dashboards de BI para clientes. Antes, criei e mantive um chatbot de atendimento com milhares de usuários por mês. Programo em TypeScript, Python e R e coordeno times com escopo claro, critérios de aceite e decisões documentadas (ADRs). Integro IA generativa ao fluxo de desenvolvimento e acompanho o resultado com métricas: nas tarefas avaliadas, o tempo caiu cerca de 70%.",
+  "en": "Data scientist and software developer with a PhD in Zoology and two postdocs. For the last two years I led the Innovation area of an environmental consultancy as Product Owner and Tech Lead: internal systems used across the company, an ESG management SaaS platform, a field data collection suite and BI dashboards for clients. Before that, I built and ran a customer service chatbot with thousands of monthly users. I code in TypeScript, Python and R, and I lead teams with clear scope, acceptance criteria and documented decisions (ADRs). I build generative AI into the development workflow and track the results with metrics: in the assessed tasks, time dropped by about 70%."
+ },
+ "experiencia": [
+  {
+   "empresa": "Seteg",
+   "descricao": {
+    "pt": "consultoria ambiental e geológica",
+    "en": "environmental and geological consultancy"
+   },
+   "local": {
+    "pt": "Fortaleza, CE (remoto)",
+    "en": "Fortaleza, Brazil (remote)"
+   },
+   "inicio": "2024-11",
+   "fim": null,
+   "cargos": [
+    {
+     "titulo": {
+      "pt": "Analista de Inovação II",
+      "en": "Innovation Analyst II"
+     },
+     "inicio": "2025-06",
+     "fim": null
+    },
+    {
+     "titulo": {
+      "pt": "Analista Ambiental",
+      "en": "Environmental Analyst"
+     },
+     "inicio": "2024-11",
+     "fim": "2025-06"
+    }
+   ],
+   "itens": [
+    {
+     "curto": true,
+     "pt": "Como Product Owner, concebi e liderei o sistema de gestão de projetos e horas que substituiu uma ferramenta paga e passou a ser usado pela **empresa inteira (cerca de 45 pessoas)**, com beta fechado como critério para o go-live.",
+     "en": "As Product Owner, conceived and led the project and time management system that replaced a paid tool and is used by the **whole company (about 45 people)**, with a closed beta as the go-live gate."
+    },
+    {
+     "curto": true,
+     "pt": "Conduzi a consolidação de **14 sistemas internos em 2**, incluindo 8 sistemas de solicitação usados por **cerca de 40 pessoas de 5 áreas**: levantamento de requisitos, aceite das entregas, ordem de migração e matriz de permissões.",
+     "en": "Led the consolidation of **14 internal systems into 2**, including 8 request systems used by **about 40 people in 5 departments**: requirements gathering, delivery acceptance, migration order and permission matrix."
+    },
+    {
+     "curto": true,
+     "pt": "Construí a camada de dados de uma suíte de coleta de campo (PostgreSQL/PostGIS, Supabase com RLS, sincronização offline-first) e o primeiro sistema de gestão de projetos da empresa (Fastify, Prisma, React), com integração ao ERP e 189 testes.",
+     "en": "Built the data layer of a field data collection suite (PostgreSQL/PostGIS, Supabase with RLS, offline-first sync) and the company's first project management system (Fastify, Prisma, React), with ERP integration and 189 tests."
+    },
+    {
+     "curto": true,
+     "pt": "Desenvolvi o módulo de metas de uma plataforma SaaS de gestão ESG financiada por edital de inovação e conduzi as entregas finais até o deploy em produção.",
+     "en": "Developed the goals module of an ESG management SaaS platform funded by an innovation grant, and drove the final deliveries through to production deployment."
+    },
+    {
+     "curto": true,
+     "pt": "Coordenei um time de 4 pessoas (3 devs e 1 designer), com gestão direta de uma desenvolvedora e PDI; fui o ponto focal da Inovação com a Diretoria e o PMO.",
+     "en": "Coordinated a team of 4 (3 developers and 1 designer), with direct management and an individual development plan for one developer; Innovation's point of contact with the board and the PMO."
+    },
+    {
+     "curto": true,
+     "pt": "Medi o ganho de produtividade com IA generativa em três áreas da empresa (**cerca de 70% de redução de tempo**, com base nas horas apontadas) e escrevi a primeira política de uso de IA.",
+     "en": "Measured the productivity gain from generative AI in three departments (**about 70% less time**, based on logged hours) and wrote the company's first AI usage policy."
+    },
+    {
+     "curto": true,
+     "pt": "Entreguei dashboards de emissões e metas ESG (Power BI, DAX) e uma solução de analytics de geração hidrelétrica para um cliente do setor de energia (FastAPI, testes de tendência).",
+     "en": "Delivered emissions and ESG target dashboards (Power BI, DAX) and a hydropower generation analytics solution for an energy sector client (FastAPI, trend tests)."
+    },
+    {
+     "curto": false,
+     "pt": "Como Analista Ambiental: monitoramento de fauna em campo, relatórios técnicos e análises para licenciamento ambiental.",
+     "en": "As Environmental Analyst: field fauna monitoring, technical reports and analyses for environmental licensing."
+    }
+   ]
+  },
+  {
+   "empresa": "Conciso TI",
+   "descricao": {
+    "pt": "tecnologia",
+    "en": "technology"
+   },
+   "local": {
+    "pt": "remoto",
+    "en": "remote"
+   },
+   "inicio": "2020-02",
+   "fim": "2024-10",
+   "cargos": [
+    {
+     "titulo": {
+      "pt": "Cientista de Dados",
+      "en": "Data Scientist"
+     },
+     "inicio": "2020-02",
+     "fim": "2024-10"
+    }
+   ],
+   "itens": [
+    {
+     "curto": true,
+     "pt": "Idealizei, construí e mantive o **Nubus**, chatbot de atendimento da empresa na plataforma Blip: **3 a 6 mil usuários únicos por mês** (pico de 10 mil) e avaliação sempre acima de 4,5 de 5 (em geral **4,7 a 4,8**). Fui o ponto focal com a Blip.",
+     "en": "Conceived, built and ran **Nubus**, the company's customer service chatbot on the Blip platform: **3,000 to 6,000 unique users a month** (peak of 10,000) and a rating always above 4.5 out of 5 (usually **4.7 to 4.8**). I was the point of contact with Blip."
+    },
+    {
+     "curto": true,
+     "pt": "Responsável pelo banco de dados do **Na Esquina**, app de entregas para mercados de pequeno e médio porte, criado durante a pandemia, antes de os grandes apps de delivery atenderem o comércio de bairro.",
+     "en": "Owned the database of **Na Esquina**, a delivery app for small and mid-sized grocery stores, built during the pandemic, before the major delivery apps served neighbourhood shops."
+    }
+   ]
+  },
+  {
+   "empresa": "Elementus Soluções Ambientais",
+   "descricao": {
+    "pt": "consultoria ambiental",
+    "en": "environmental consultancy"
+   },
+   "local": {
+    "pt": "Natal, RN",
+    "en": "Natal, Brazil"
+   },
+   "inicio": "2023-10",
+   "fim": "2025-04",
+   "cargos": [
+    {
+     "titulo": {
+      "pt": "Analista de Projetos Sênior",
+      "en": "Senior Project Analyst"
+     },
+     "inicio": "2023-10",
+     "fim": "2025-04"
+    }
+   ],
+   "itens": [
+    {
+     "curto": true,
+     "pt": "Responsável técnico (ART/CRBio) pelo monitoramento de tartarugas marinhas do Porto de Natal: campanhas embarcadas trimestrais, registros georreferenciados e relatórios técnicos para o atendimento às condicionantes da licença.",
+     "en": "Technical lead (registered with the Biology Council) for sea turtle monitoring at the Port of Natal: quarterly boat surveys, georeferenced records and technical reports to meet the licence conditions."
+    }
+   ]
+  },
+  {
+   "empresa": {
+    "pt": "Pesquisa acadêmica",
+    "en": "Academic research"
+   },
+   "descricao": "UFRN/PPBio · UNEMAT · UFPB",
+   "academico": false,
+   "local": {
+    "pt": "Brasil",
+    "en": "Brazil"
+   },
+   "inicio": "2010-03",
+   "fim": "2023-12",
+   "cargos": [],
+   "itens": [
+    {
+     "curto": true,
+     "pt": "*Pós-doutorado, UFRN/PPBio* (2022–2023): pipeline de listas de vertebrados brasileiros e da cobertura de dados genéticos (BOLD, GenBank), com dashboard público.",
+     "en": "*Postdoc, UFRN/PPBio* (2022–2023): pipeline for Brazilian vertebrate checklists and genetic data coverage (BOLD, GenBank), with a public dashboard."
+    },
+    {
+     "curto": true,
+     "pt": "*Pós-doutorado, UNEMAT* (2018–2019): dinâmica de comunidades lenhosas do Cerrado; coorientação, bancas e cursos de R.",
+     "en": "*Postdoc, UNEMAT* (2018–2019): woody community dynamics in the Cerrado; co-supervision, thesis committees and R courses."
+    },
+    {
+     "curto": true,
+     "pt": "*Mestrado e doutorado em Zoologia, UFPB* (2010–2017): mimetismo e filogeografia de serpentes.",
+     "en": "*MSc and PhD in Zoology, UFPB* (2010–2017): mimicry and phylogeography of snakes."
+    },
+    {
+     "curto": true,
+     "pt": "**15 artigos revisados por pares e 1 aceito (2026)**, incluindo duas cartas na *Science* (2023 e 2024).",
+     "en": "**15 peer-reviewed papers and 1 accepted (2026)**, including two letters in *Science* (2023 and 2024)."
+    }
+   ]
+  },
+  {
+   "empresa": {
+    "pt": "Consultor ambiental e estatístico autônomo",
+    "en": "Freelance environmental and statistical consultant"
+   },
+   "descricao": null,
+   "local": {
+    "pt": "Brasil",
+    "en": "Brazil"
+   },
+   "inicio": "2011-01",
+   "fim": "2024-12",
+   "cargos": [],
+   "itens": [
+    {
+     "curto": true,
+     "pt": "EIA/RIMA, levantamento e monitoramento de herpetofauna e análises ecológicas em R para consultorias, com relatórios didáticos em Quarto.",
+     "en": "Environmental impact assessments, herpetofauna surveys and monitoring, and ecological analyses in R for consultancies, with didactic Quarto reports."
+    }
+   ]
+  },
+  {
+   "empresa": "Barbosa & Barbosa",
+   "descricao": null,
+   "local": {
+    "pt": "Amélia Rodrigues, BA",
+    "en": "Amélia Rodrigues, Brazil"
+   },
+   "inicio": 2008,
+   "fim": 2009,
+   "cargos": [
+    {
+     "titulo": {
+      "pt": "Cadista",
+      "en": "CAD Drafter"
+     },
+     "inicio": 2008,
+     "fim": 2009
+    }
+   ],
+   "itens": [
+    {
+     "curto": true,
+     "pt": "Desenho técnico de projetos arquitetônicos em AutoCAD.",
+     "en": "Technical drawings for architectural projects in AutoCAD."
+    }
+   ]
+  }
+ ],
+ "projetos": [
+  {
+   "nome": "tetrapoDNA",
+   "curto": true,
+   "link": "rsilveirafh.github.io/tetrapoDNA",
+   "pt": "Dashboard público que mostra quais tetrápodes do Brasil (cerca de 4.800 espécies de anfíbios, répteis, aves e mamíferos) ainda não têm nenhuma sequência de DNA no BOLD e no GenBank. Pipeline em R com checagem de sinônimos (CTFB, GBIF) para evitar falsas lacunas, atualização semanal por GitHub Actions e site no GitHub Pages.",
+   "en": "Public dashboard showing which Brazilian tetrapods (about 4,800 amphibian, reptile, bird and mammal species) still have no DNA sequence in BOLD or GenBank. R pipeline with synonym checks (CTFB, GBIF) to avoid false gaps, weekly updates via GitHub Actions and a GitHub Pages site."
+  },
+  {
+   "nome": "claude-plugins",
+   "curto": true,
+   "link": "github.com/rsilveirafh/claude-plugins",
+   "pt": "Catálogo open source dos meus plugins do Claude Code. O *banca‑simulada* revisa projetos de pesquisa, do TCC ao concurso docente, como uma banca: aponta o trecho, a gravidade e a sugestão em oito eixos e lista as perguntas prováveis da arguição. O *memoria‑skills* transforma um vault Markdown em um sistema de memória com revisão humana.",
+   "en": "Open-source catalog of my Claude Code plugins. *banca‑simulada* reviews research proposals, from undergraduate theses to faculty hiring, the way a committee would: it points to the passage, the severity and a suggestion across eight axes, and lists the likely questions. *memoria‑skills* turns a Markdown vault into a memory system with human review."
+  },
+  {
+   "nome": {
+    "pt": "Pacotes R de listas de espécies (amphiBR e ReptiliaBR)",
+    "en": "R packages for species checklists (amphiBR and ReptiliaBR)"
+   },
+   "curto": true,
+   "pt": "Contribuições open source: lista de anfíbios do Brasil 2026 (1.251 espécies) e status de ameaça da Portaria MMA 1.704/2026.",
+   "en": "Open-source contributions: the 2026 Brazilian amphibian checklist (1,251 species) and threat status from the 2026 national red list."
+  },
+  {
+   "nome": {
+    "pt": "E-commerces em produção",
+    "en": "Online stores in production"
+   },
+   "curto": true,
+   "pt": "Para pequenos negócios (Next.js, Supabase, PIX, PWA), com configurador de produtos e precificação no back-end.",
+   "en": "For small businesses (Next.js, Supabase, PIX instant payments, PWA), with a product configurator and server-side pricing."
+  },
+  {
+   "nome": "Carona Solidária",
+   "curto": true,
+   "pt": "Plataforma de caronas para eleitores com dificuldade de locomoção no 2º turno de 2026, em três capitais.",
+   "en": "Ride-sharing platform for voters with reduced mobility in the 2026 runoff election, in three state capitals."
+  }
+ ],
+ "formacao": [
+  {
+   "grau": {
+    "pt": "Doutorado em Zoologia",
+    "en": "PhD in Zoology"
+   },
+   "instituicao": {
+    "pt": "Universidade Federal da Paraíba (UFPB)",
+    "en": "Federal University of Paraíba (UFPB)"
+   },
+   "ano": 2017,
+   "detalhe": {
+    "pt": "Filogeografia de *Philodryas nattereri*. Bolsa CAPES.",
+    "en": "Phylogeography of *Philodryas nattereri*. CAPES scholarship."
+   }
+  },
+  {
+   "grau": {
+    "pt": "Mestrado em Zoologia",
+    "en": "MSc in Zoology"
+   },
+   "instituicao": {
+    "pt": "Universidade Federal da Paraíba (UFPB)",
+    "en": "Federal University of Paraíba (UFPB)"
+   },
+   "ano": 2012,
+   "detalhe": {
+    "pt": "Mimetismo em serpentes corais. Bolsa CAPES.",
+    "en": "Mimicry in coral snakes. CAPES scholarship."
+   }
+  },
+  {
+   "grau": {
+    "pt": "Licenciatura em Ciências Biológicas",
+    "en": "BSc in Biological Sciences (teaching)"
+   },
+   "instituicao": {
+    "pt": "Universidade Estadual de Feira de Santana (UEFS)",
+    "en": "State University of Feira de Santana (UEFS)"
+   },
+   "ano": 2009,
+   "detalhe": null
+  }
+ ],
+ "posdoc": [
+  {
+   "area": {
+    "pt": "Conservação",
+    "biodiversidade": null,
+    "bioinformática e genética": null,
+    "en": "Conservation",
+    "biodiversity": null,
+    "bioinformatics and genetics": null
+   },
+   "instituicao": "UFRN / PPBio",
+   "periodo": "2022–2023",
+   "detalhe": {
+    "pt": "Bolsa CNPq. Supervisão de Adrian A. Garda.",
+    "en": "CNPq fellowship. Supervised by Adrian A. Garda."
+   }
+  },
+  {
+   "area": {
+    "pt": "Ecologia vegetal",
+    "en": "Plant ecology"
+   },
+   "instituicao": {
+    "pt": "Universidade do Estado de Mato Grosso (UNEMAT)",
+    "en": "Mato Grosso State University (UNEMAT)"
+   },
+   "periodo": "2018–2019",
+   "detalhe": {
+    "pt": "Bolsa CAPES. Supervisão de Eddie Lenza.",
+    "en": "CAPES fellowship. Supervised by Eddie Lenza."
+   }
+  }
+ ],
+ "cursos": [
+  {
+   "nome": {
+    "pt": "Ciência de Dados (trilhas)",
+    "en": "Data Science (tracks)"
+   },
+   "onde": "DataCamp",
+   "periodo": "2023–"
+  },
+  {
+   "nome": {
+    "pt": "Comunidade de Estatística",
+    "en": "Statistics community"
+   },
+   "onde": "Prof. Thiago Marques",
+   "periodo": "2021–2022"
+  },
+  {
+   "nome": {
+    "pt": "Ciência de Dados com R e PostgreSQL",
+    "en": "Data Science with R and PostgreSQL"
+   },
+   "onde": null,
+   "periodo": 2021
+  }
+ ],
+ "competencias": [
+  {
+   "area": {
+    "pt": "Linguagens",
+    "en": "Languages"
+   },
+   "itens": "TypeScript, JavaScript, Python, R, SQL (PL/pgSQL), HTML, CSS, DAX, Power Query (M), Shell"
+  },
+  {
+   "area": {
+    "pt": "Back-end e dados",
+    "en": "Back end and data"
+   },
+   "itens": "Node.js (Fastify, Express), FastAPI, Prisma, Drizzle, Zod, PostgreSQL (PostGIS, pgvector, RLS), Supabase, Redis, BullMQ, PowerSync (offline-first)"
+  },
+  {
+   "area": {
+    "pt": "Front-end e mobile",
+    "en": "Front end and mobile"
+   },
+   "itens": "React, Next.js, Vite, Tailwind, shadcn/ui, PWA, Capacitor (Android), Shiny (golem)"
+  },
+  {
+   "area": {
+    "pt": "Infraestrutura e testes",
+    "en": "Infrastructure and testing"
+   },
+   "itens": "Docker, nginx, GitHub Actions, Cloudflare, Vitest, pgTAP, testthat"
+  },
+  {
+   "area": {
+    "pt": "Dados e análise",
+    "en": "Data and analytics"
+   },
+   "itens": {
+    "pt": "estatística ecológica, dados geoespaciais (QGIS, PostGIS), Power BI, Quarto e R Markdown, inventário de emissões (GHG Protocol)",
+    "en": "ecological statistics, geospatial data (QGIS, PostGIS), Power BI, Quarto and R Markdown, emissions inventory (GHG Protocol)"
+   }
+  },
+  {
+   "area": {
+    "pt": "IA aplicada",
+    "en": "Applied AI"
+   },
+   "itens": {
+    "pt": "desenvolvimento com agentes de IA (Claude Code), skills e hooks próprios, chatbots (Blip), medição de ganho de produtividade, política de uso de IA",
+    "en": "agent-assisted development (Claude Code), custom skills and hooks, chatbots (Blip), productivity gain measurement, AI usage policy"
+   }
+  },
+  {
+   "area": {
+    "pt": "Produto e gestão",
+    "en": "Product and management"
+   },
+   "itens": {
+    "pt": "Product Owner, levantamento de requisitos, ADRs, Scrum, PMI, pré-venda e propostas de P&D",
+    "en": "Product Owner, requirements gathering, ADRs, Scrum, PMI, pre-sales and R&D grant proposals"
+   }
+  }
+ ],
+ "idiomas": [
+  {
+   "pt": "Português (nativo)",
+   "en": "Portuguese (native)"
+  },
+  {
+   "pt": "Inglês (fluente)",
+   "en": "English (fluent)"
+  },
+  {
+   "pt": "Espanhol (leitura)",
+   "en": "Spanish (reading)"
+  }
+ ],
+ "publicacoes": [
+  {
+   "autores": "Pirani, R.M.; Rainha, R.N.; Magalhães, F.M.; Silveira-Filho, R.R.; Werneck, F.P.; Domingos, F.M.C.B.; Vasconcellos, M.M.",
+   "ano": 2026,
+   "titulo": "Genomics in the Neotropics: advances, biases, and future directions for evolutionary research in Tetrapoda",
+   "revista": "Genetics and Molecular Biology",
+   "detalhes": null,
+   "status": {
+    "pt": "aceito",
+    "en": "accepted"
+   }
+  },
+  {
+   "autores": "Roque, F.O.; Ndiribe, C.; Overbeck, G.E.; et al. (incl. Silveira-Filho, R.R.)",
+   "ano": 2026,
+   "titulo": "Beyond boundaries: rethinking biomes interdependencies in conservation policies",
+   "revista": "Perspectives in Ecology and Conservation",
+   "detalhes": "24: 34–39",
+   "doi": "10.1016/j.pecon.2025.12.001"
+  },
+  {
+   "autores": "Sousa, M.B.A.; Lion, M.B.; Costa, W.M.M.; Egli, B.A.L.; Silveira-Filho, R.R.; et al.",
+   "ano": 2024,
+   "titulo": "Herpetofauna of Nísia Floresta National Forest, Rio Grande do Norte, Brazil: richness and abundance differences among natural and secondary forests",
+   "revista": "Biota Neotropica",
+   "detalhes": "24(3): e20241643",
+   "doi": "10.1590/1676-0611-bn-2024-1643"
+  },
+  {
+   "autores": "Overbeck, G.E.; Toma, T.S.P.; Silveira-Filho, R.R.; Dechoum, M.S.; Fonsêca, N.C.; et al.",
+   "ano": 2024,
+   "titulo": "Brazil's natural grasslands under attack",
+   "revista": "Science",
+   "detalhes": "384(6692): 168–169",
+   "doi": "10.1126/science.adp4923"
+  },
+  {
+   "autores": "Veríssimo, A.A.; Silvério, D.V.; Abadia, A.C.; Carrijo, D.; Silveira-Filho, R.R.; Santos-Silva, D.L.; Fagundes, M.V.; Martins, J.; Gonçalves, L.A.; Lenza, E.",
+   "ano": 2024,
+   "titulo": "Influence of soil properties on woody vegetation structure, diversity and seasonality in Neotropical savannas",
+   "revista": "Austral Ecology",
+   "detalhes": "49(3): e13501",
+   "doi": "10.1111/aec.13501"
+  },
+  {
+   "autores": "Marques, R.; Garda, A.A.; Furtado, A.; Bruinjé, A.; Protázio, A.; et al. (incl. Silveira-Filho, R.R.)",
+   "ano": 2023,
+   "titulo": "Herpetofauna of protected areas in the Caatinga VIII: an updated checklist for the Serra das Confusões region with new data from Serra Vermelha, Piauí, Brazil",
+   "revista": "Biota Neotropica",
+   "detalhes": "23(4)",
+   "doi": "10.1590/1676-0611-bn-2023-1520"
+  },
+  {
+   "autores": "Fernandes, G.W.; Oliveira, H.F.M.; Bergallo, H.G.; et al. (incl. Silveira-Filho, R.R.)",
+   "ano": 2023,
+   "titulo": "Hidden costs of Europe's deforestation policy",
+   "revista": "Science",
+   "detalhes": "379(6630): 341–342",
+   "doi": "10.1126/science.adg2983"
+  },
+  {
+   "autores": "Castro, D.P.; Mângia, S.; Magalhães, F.M.; Röhr, D.L.; Camurugi, F.; Silveira-Filho, R.R.; et al.",
+   "ano": 2019,
+   "titulo": "Herpetofauna of protected areas in the Caatinga VI: the Ubajara National Park, Ceará, Brazil",
+   "revista": "Herpetology Notes",
+   "detalhes": "12: 727–742"
+  },
+  {
+   "autores": "Gehara, M.; Garda, A.A.; Werneck, F.P.; Oliveira, E.F.; da Fonseca, E.M.; Camurugi, F.; Magalhães, F.M.; Lanna, F.M.; Sites, J.W.; Marques, R.; Silveira-Filho, R.R.; et al.",
+   "ano": 2017,
+   "titulo": "Estimating synchronous demographic changes across populations using hABC and its application for a herpetological community from northeastern Brazil",
+   "revista": "Molecular Ecology",
+   "detalhes": "26(18): 4756–4771",
+   "doi": "10.1111/mec.14239"
+  },
+  {
+   "autores": "Santana, D.J.; Mângia, S.; Silveira-Filho, R.R.; Barros, L.C.S.; Andrade, I.; Napoli, M.F.; Juncá, F.; Garda, A.A.",
+   "ano": 2015,
+   "titulo": "Anurans from the Middle Jaguaribe River Region, Ceará State, northeastern Brazil",
+   "revista": "Biota Neotropica",
+   "detalhes": "15(3)",
+   "doi": "10.1590/1676-06032015001715"
+  },
+  {
+   "autores": "Magalhães, F.M.; Camurugi, F.; Silveira-Filho, R.R.; Mângia, S.; Conceição, B.M.",
+   "ano": 2015,
+   "titulo": "_Brasiliscincus heathi_ (Brazilian Mabuya). Tail bifurcation",
+   "revista": "Herpetological Review",
+   "detalhes": "46: 624–625"
+  },
+  {
+   "autores": "Buril, M.T.; Oliveira, P.P.; Rodrigues, R.; Santos, F.A.R.; Alves, M.",
+   "ano": 2014,
+   "titulo": "Pollen morphology and taxonomic implications in _Jacquemontia_ Choisy (Convolvulaceae)",
+   "revista": "Grana",
+   "detalhes": "54(1): 1–11",
+   "doi": "10.1080/00173134.2014.946961"
+  },
+  {
+   "autores": "Peixoto, M.A.A.; Mângia, S.; Rodrigues, R.; Santana, D.J.",
+   "ano": 2013,
+   "titulo": "Defensive behavior in _Proceratophrys renalis_ (Miranda-Ribeiro, 1920) (Anura, Odontophrynidae)",
+   "revista": "Herpetology Notes",
+   "detalhes": "6: 479–480"
+  },
+  {
+   "autores": "Garda, A.A.; Costa, T.B.; Santos-Silva, C.R.; Mesquita, D.O.; Faria, R.G.; et al. (incl. Rodrigues, R.)",
+   "ano": 2013,
+   "titulo": "Herpetofauna of protected areas in the Caatinga I: Raso da Catarina Ecological Station (Bahia, Brazil)",
+   "revista": "Check List",
+   "detalhes": "9(2): 405–414",
+   "doi": "10.15560/9.2.405"
+  },
+  {
+   "autores": "Rodrigues, R.; Albuquerque, R.L.; Santana, D.J.; Laranjeiras, D.O.; Protázio, A.S.; França, F.G.R.; Mesquita, D.O.",
+   "ano": 2013,
+   "titulo": "Record of the occurrence of _Lachesis muta_ (Serpentes, Viperidae) in an Atlantic Forest fragment in Paraíba, Brazil, with comments on the species preservation status",
+   "revista": "Biotemas",
+   "detalhes": "26(2): 283–286",
+   "doi": "10.5007/2175-7925.2013v26n2p283"
+  },
+  {
+   "autores": "Santana, D.J.; Rodrigues, R.; Albuquerque, R.L.; Laranjeiras, D.O.; Protázio, A.S.; França, F.G.R.; Mesquita, D.O.",
+   "ano": 2011,
+   "titulo": "The advertisement call of _Proceratophrys renalis_ (Miranda-Ribeiro, 1920) (Amphibia: Anura: Cycloramphidae)",
+   "revista": "Zootaxa",
+   "detalhes": "2809: 67–68",
+   "doi": "10.11646/zootaxa.2809.1.6"
+  }
+ ],
+ "apresentacoes": [
+  {
+   "texto": "Verba, J.T.; Pennino, M.G.; Silveira-Filho, R.R.; Lopes, P.; Lima, S.; Stow, A. Coastal-island population genetic connectivity of the reef fish _Sparisoma axillare_. 14th International Coral Reef Symposium, Bremen",
+   "ano": 2020
+  }
+ ],
+ "producao_tecnica": [
+  {
+   "ano": 2025,
+   "texto": "Relatórios técnicos da 5ª e da 6ª campanhas de monitoramento de quelônios marinhos do Porto Organizado de Natal (CODERN). Elementus Soluções Ambientais."
+  },
+  {
+   "ano": 2024,
+   "texto": "1ª a 4ª campanhas de monitoramento de quelônios marinhos do Porto Organizado de Natal (CODERN). Elementus Soluções Ambientais."
+  },
+  {
+   "ano": 2024,
+   "texto": "1ª campanha de monitoramento da herpetofauna do Complexo Eólico Santo Agostinho (ENGIE). Lajes e Pedro Avelino, RN."
+  },
+  {
+   "ano": 2024,
+   "texto": "Consultor do Programa de Monitoramento da Herpetofauna, fase de operação, do Complexo Solar Fotovoltaico ALEX (Elera Renováveis). Spizaetus Ambiental. Tabuleiro do Norte, CE."
+  },
+  {
+   "ano": 2021,
+   "texto": "Consultor do 4º e do 5º Programa de Monitoramento da Fauna Terrestre (herpetologia) do Complexo Termoelétrico Porto de Sergipe I (CELSE). Táxon Estudos Ambientais. SE."
+  },
+  {
+   "ano": 2021,
+   "texto": "Consultor do 3º Programa de Monitoramento da Fauna Terrestre (répteis) do gasoduto Catu–Carmópolis (TAG). Táxon Estudos Ambientais. BA–SE."
+  },
+  {
+   "ano": 2019,
+   "texto": "Plano de Salvamento e Manejo de Fauna. Táxon. Muritiba, BA."
+  },
+  {
+   "ano": 2019,
+   "texto": "RCA de operação: licenciamento ambiental do Gasoduto Lagoa Parda, ES."
+  },
+  {
+   "ano": 2018,
+   "texto": "EIA/RIMA de instalação e de operação (2019): LT 530 kV do Complexo Eólico Ventos de Santa Ângela, PI."
+  }
+ ],
+ "coorientacoes": [
+  {
+   "ano": 2019,
+   "texto": "Veríssimo, Arthur Aires. *A flora, os solos e os efeitos do ambiente e espaço sobre a montagem de comunidades lenhosas de savanas sobre distintos substratos, na transição Cerrado e Amazônia.* Mestrado, PPG em Ecologia e Conservação, UNEMAT."
+  },
+  {
+   "ano": 2017,
+   "texto": "Pontes, Bruna Elizabeth Silva de. *Ameaça potencial de invasões de serpentes exóticas no continente americano.* Mestrado, PPG em Ecologia e Monitoramento Ambiental, UFPB."
+  }
+ ],
+ "bancas": [
+  {
+   "ano": 2019,
+   "nivel": "Doutorado",
+   "texto": "Nubia França da Silva Giehl. *Preditores ambientais e geográficos da diversidade de Heteroptera (Gerromorpha) em riachos da Amazônia e Cerrado.* PPG em Ecologia e Conservação, UNEMAT."
+  },
+  {
+   "ano": 2019,
+   "nivel": "Doutorado",
+   "texto": "Leandro Braga Godinho. *Lagartos da transição Cerrado-Amazônia: dinâmica de comunidades e risco de extinções induzidas por mudanças climáticas locais.* PPG em Ecologia e Conservação, UNEMAT."
+  },
+  {
+   "ano": 2019,
+   "nivel": "Doutorado",
+   "texto": "Ana Clara Abadia Rodrigues de Sousa. *Limiares ecológicos: preditores regionais e locais modulam a distribuição de plantas lenhosas em savanas neotropicais sobre substratos distintos.* PPG em Ecologia e Conservação, UNEMAT."
+  },
+  {
+   "ano": 2019,
+   "nivel": "Mestrado",
+   "texto": "Naiane Arantes Silva. *Efeitos da autotomia caudal no desempenho locomotor de Micrablepharus atticolus (Squamata, Gymnophthalmidae).* PPG em Ecologia e Conservação, UNEMAT."
+  }
+ ],
+ "ensino": [
+  {
+   "ano": 2019,
+   "texto": "Introdução ao R (com M.V. Fagundes). PPG em Ecologia e Conservação, UNEMAT, Nova Xavantina, MT."
+  },
+  {
+   "ano": 2018,
+   "texto": "Ecologia de Campo (com E. Lenza, M.V. Fagundes e G.R. Colli). UNEMAT e UnB, divisa GO–BA–MG."
+  }
+ ],
+ "vinculos": [
+  {
+   "ano": "2019–",
+   "texto": "Membro associado da Consulte um Cientista, consultoria estatística e de dados."
+  },
+  {
+   "ano": "2012–2018",
+   "texto": "Colaborador da Scientia Educação e Pesquisa."
+  }
+ ]
+}

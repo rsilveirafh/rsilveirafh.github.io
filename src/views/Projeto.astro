@@ -18,5 +18,15 @@ const d = projeto.data;
   </div>
 )}
 <div class="corpo"><Content /></div>
-<ul class="stack">{d.stack.map((s) => <li>{s}</li>)}</ul>
-<p class="links">{d.links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.rotulo} ↗</a>)}</p>
+{d.imagens.length > 0 && (
+  <div class="galeria wide">
+    {d.imagens.map((img) => (
+      <figure>
+        <img src={`/projetos/${projeto.slug}/${img.arquivo}`} alt={img.legenda} loading="lazy" decoding="async" />
+        <figcaption>{img.legenda}</figcaption>
+      </figure>
+    ))}
+  </div>
+)}
+{d.stack.length > 0 && <ul class="stack">{d.stack.map((s) => <li>{s}</li>)}</ul>}
+{d.links.length > 0 && <p class="links">{d.links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.rotulo} ↗</a>)}</p>}

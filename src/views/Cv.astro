@@ -1,26 +1,58 @@
 ---
 import Caminho from './Caminho.astro';
 import { ARQUIVOS, type Lang } from '../i18n';
-import { CV, CV_PDF, STACK } from '../data/perfil';
+import { CV_PDF, CV_TXT } from '../data/perfil';
+import { CV, md, periodo, tr } from '../lib/cv';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
-const t = CV[lang];
+const t = CV_TXT[lang];
 const pdf = CV_PDF[lang];
 ---
 <Caminho lang={lang} arquivo={ARQUIVOS[lang].cv} />
 <h1 class="title">{t.titulo}</h1>
+<p class="role">{tr(CV.pessoa.titulo, lang)}</p>
+<p class="lede" set:html={md(tr(CV.resumo, lang))} />
 {pdf && <p><a class="btn" href={pdf} download>{t.baixar} <small>{pdf.split('/').pop()}</small></a></p>}
+
 <h2 class="sec">{t.experiencia}</h2>
 <ol class="tl">
-  {t.empregos.map((j) => (
-    <li><span class="when">{j.quando}</span><div><strong>{j.onde}</strong> <span class="r">· {j.cargo}</span>{j.texto && <p>{j.texto}</p>}</div></li>
+  {CV.experiencia.map((e: any) => (
+    <li>
+      <span class="when">{periodo(e.inicio, e.fim, lang)}</span>
+      <div>
+        <strong>{tr(e.empresa, lang)}</strong>{e.descricao && <span class="r"> · {tr(e.descricao, lang)}</span>}
+        {e.cargos.length > 0 && (
+          <p class="cargos">{e.cargos.map((c: any) => <span>{tr(c.titulo, lang)} <span class="r">({periodo(c.inicio, c.fim, lang)})</span></span>)}</p>
+        )}
+        <ul class="itens">{e.itens.map((i: any) => <li set:html={md(tr(i, lang))} />)}</ul>
+      </div>
+    </li>
   ))}
 </ol>
+
 <h2 class="sec">{t.formacao}</h2>
 <ol class="tl">
-  {t.estudos.map((e) => (
-    <li><span class="when">{e.quando || '·'}</span><div><strong>{e.curso}</strong> <span class="r">· {e.onde}</span></div></li>
+  {CV.formacao.map((f: any) => (
+    <li><span class="when">{f.ano}</span><div><strong>{tr(f.grau, lang)}</strong> <span class="r">· {tr(f.instituicao, lang)}</span>{f.detalhe && <p set:html={md(tr(f.detalhe, lang))} />}</div></li>
   ))}
 </ol>
-<h2 class="sec">Stack</h2>
-<ul class="stack">{STACK.map((s) => <li>{s}</li>)}</ul>
+
+<h2 class="sec">{t.posdoc}</h2>
+<ol class="tl">
+  {CV.posdoc.map((p: any) => (
+    <li><span class="when">{p.periodo}</span><div><strong>{tr(p.area, lang)}</strong> <span class="r">· {tr(p.instituicao, lang)}</span>{p.detalhe && <p>{tr(p.detalhe, lang)}</p>}</div></li>
+  ))}
+</ol>
+
+<h2 class="sec">{t.competencias}</h2>
+<dl class="skills">
+  {CV.competencias.map((c: any) => <div><dt>{tr(c.area, lang)}</dt><dd>{tr(c.itens, lang)}</dd></div>)}
+</dl>
+
+<h2 class="sec">{t.idiomas}</h2>
+<p>{CV.idiomas.map((i: any) => tr(i, lang)).join(' · ')}</p>
+
+<h2 class="sec">{t.cursos}</h2>
+<ul class="itens">
+  {CV.cursos.map((c: any) => <li>{tr(c.nome, lang)}{c.onde && ` · ${c.onde}`} <span class="r">({c.periodo})</span></li>)}
+</ul>

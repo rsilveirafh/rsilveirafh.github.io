@@ -9,12 +9,14 @@ No ar em **https://rsilveirafh.github.io**, em português (`/`) e inglês (`/en/
 | Para… | Edite |
 |---|---|
 | acrescentar ou mudar um projeto | `src/content/projetos/pt/<slug>.md` e `src/content/projetos/en/<slug>.md` (mesmo nome nos dois) |
-| texto de sobre, pesquisa, currículo e contato | `src/data/perfil.ts` |
+| textos de sobre, pesquisa e contato | `src/data/perfil.ts` |
+| currículo e publicações | no repositório privado `curriculum` (`dados/cv.yaml`); depois rode `python scripts/importar-cv.py ../curriculum/dados/cv.yaml`, que gera `src/data/cv.json` sem o telefone |
+| prints de um projeto | coloque em `public/projetos/<slug>/` e liste em `imagens` no frontmatter (`arquivo` e `legenda`) |
 | menu, endereços e nomes dos "arquivos" | `src/i18n.ts` |
 | cores e layout | `src/styles/global.css` |
 | comandos do terminal | `src/lib/terminal.ts` |
 
-O frontmatter de cada projeto: `nome`, `tipo`, `resumo`, `stack`, `links`, `numeros` (opcional), `ordem` e `destaque` (aparece no início). O texto abaixo do frontmatter vira o corpo da página.
+O frontmatter de cada projeto: `nome`, `tipo`, `grupo` (`seteg`, `proprio`, `antes` ou `pesquisa`), `resumo`, `ordem` e, opcionais, `stack`, `links`, `numeros`, `imagens` e `destaque` (aparece no início). O texto abaixo do frontmatter vira o corpo da página.
 
 ## Rodar
 

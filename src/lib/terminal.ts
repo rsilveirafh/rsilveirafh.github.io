@@ -99,19 +99,22 @@ export function iniciarTerminal(navegar: Navegar) {
     const pt = st.lang === 'pt';
     if (v === 'sobre') {
       print(`<span class="hi">Ricardo Silveira</span> · ${pt ? 'biólogo (PhD), cientista de dados e desenvolvedor' : 'biologist (PhD), data scientist and developer'}`,
-        `<span class="dim">${pt ? 'disponível para vagas remotas' : 'open to remote roles'}</span>`, nota());
+        `<span class="dim">${pt ? 'disponível a partir do fim de novembro de 2026' : 'available from late November 2026'}</span>`, nota());
     } else if (v === 'projetos') {
       const w = Math.max(...projetos().map((p) => p.slug.length)) + 3;
       print(`<span class="dim">${dados.arquivos[st.lang].projetos}  (${projetos().length})</span>`,
-        ...projetos().map((p) => btn(cmdDe(p.slug), p.slug) + ' '.repeat(w - p.slug.length) + `<span class="dim">${esc(p.tipo)}</span>`),
+        ...projetos().map((p) => btn(cmdDe(p.slug), p.slug) + ' '.repeat(w - p.slug.length) + `<span class="dim">${esc(p.tipo.split(' · ')[0])}</span>`),
         nota());
     } else if (v === 'pesquisa') {
-      print(pt ? 'Doutorado e mestrado em Zoologia (UFPB) · 2 pós-doutorados' : 'PhD and MSc in Zoology (UFPB) · 2 post-docs',
-        pt ? '16 artigos, 2 na <span class="hi">Science</span> (2023, 2024)' : '16 articles, 2 in <span class="hi">Science</span> (2023, 2024)', nota());
+      print(pt ? 'Mestrado e doutorado em Zoologia (UFPB) · 2 pós-doutorados' : 'MSc and PhD in Zoology (UFPB) · 2 postdocs',
+        pt ? '15 artigos revisados por pares + 1 aceito · 2 cartas na <span class="hi">Science</span>' : '15 peer-reviewed papers + 1 accepted · 2 letters in <span class="hi">Science</span>', nota());
     } else if (v === 'cv') {
       const pdf = dados.cvPdf[st.lang];
-      print(`2024–${pt ? 'hoje' : 'now '}  Seteg · ${pt ? 'inovação' : 'innovation'}`, '2023–2025  Elementus',
-        `2020–2024  Conciso TI · ${pt ? 'ciência de dados' : 'data science'}`, `2010–2024  ${pt ? 'consultoria ambiental' : 'environmental consulting'}`,
+      print(`2024–${pt ? 'hoje' : 'now '}  Seteg · ${pt ? 'Inovação, PO e Tech Lead' : 'Innovation, PO and Tech Lead'}`,
+        `2023–2025  Elementus · ${pt ? 'monitoramento de tartarugas marinhas' : 'sea turtle monitoring'}`,
+        `2020–2024  Conciso TI · ${pt ? 'cientista de dados' : 'data scientist'}`,
+        `2011–2024  ${pt ? 'consultor ambiental e estatístico' : 'environmental and statistical consultant'}`,
+        `2010–2023  ${pt ? 'pesquisa: mestrado, doutorado e 2 pós-docs' : 'research: MSc, PhD and 2 postdocs'}`,
         ...(pdf ? [`PDF: ${link(pdf, pdf.split('/').pop()!)}`] : []), nota());
     } else if (v === 'contato') {
       print(`e-mail    <span class="hi">${esc(dados.email)}</span>`,
