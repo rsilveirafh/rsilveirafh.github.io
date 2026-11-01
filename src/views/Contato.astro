@@ -1,0 +1,19 @@
+---
+import Caminho from './Caminho.astro';
+import { ARQUIVOS, type Lang } from '../i18n';
+import { CONTATO, EMAIL, LINKS } from '../data/perfil';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = CONTATO[lang];
+const semProtocolo = (u: string) => u.replace(/^https?:\/\//, '');
+---
+<Caminho lang={lang} arquivo={ARQUIVOS[lang].contato} />
+<h1 class="title">{t.titulo}</h1>
+<p class="lede">{t.texto}</p>
+<dl class="contact">
+  <div><dt>e-mail</dt><dd><a href={`mailto:${EMAIL}`}>{EMAIL}</a></dd><button type="button" class="copy" data-copiar={EMAIL} data-copiado={t.copiado}>{t.copiar}</button></div>
+  <div><dt>LinkedIn</dt><dd><a href={LINKS.linkedin} target="_blank" rel="noopener">{semProtocolo(LINKS.linkedin)}</a></dd><span></span></div>
+  <div><dt>GitHub</dt><dd><a href={LINKS.github} target="_blank" rel="noopener">{semProtocolo(LINKS.github)}</a></dd><span></span></div>
+  <div><dt>Lattes</dt><dd><a href={LINKS.lattes} target="_blank" rel="noopener">{semProtocolo(LINKS.lattes)}</a></dd><span></span></div>
+</dl>
+<p class="muted">{t.fuso}</p>

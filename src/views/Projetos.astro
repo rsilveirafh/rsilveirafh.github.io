@@ -1,0 +1,24 @@
+---
+import Caminho from './Caminho.astro';
+import { ARQUIVOS, urlDe, type Lang } from '../i18n';
+import { projetosDe } from '../lib/projetos';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const lista = await projetosDe(lang);
+const t = lang === 'pt'
+  ? { h: 'Projetos', p: 'Ferramentas, painéis e sistemas que construí, com o problema que cada um resolve.' }
+  : { h: 'Projects', p: 'Tools, dashboards and systems I built, and the problem each one solves.' };
+---
+<Caminho lang={lang} arquivo={ARQUIVOS[lang].projetos} />
+<h1 class="title">{t.h}</h1>
+<p class="lede">{t.p}</p>
+<ul class="plist wide">
+  {lista.map((p) => (
+    <li>
+      <a href={urlDe(p.slug, lang)} data-view={p.slug}>
+        <span class="meta"><span class="t">{p.data.nome}</span><span class="kind">{p.data.tipo}</span></span>
+        <span class="meta"><span class="s">{p.data.resumo}</span><span class="file">{ARQUIVOS[lang].dir}/{p.slug}.md</span></span>
+      </a>
+    </li>
+  ))}
+</ul>

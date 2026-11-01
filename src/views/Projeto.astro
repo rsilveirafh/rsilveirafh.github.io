@@ -1,0 +1,22 @@
+---
+import { render } from 'astro:content';
+import Caminho from './Caminho.astro';
+import type { Lang } from '../i18n';
+import type { Projeto } from '../lib/projetos';
+interface Props { lang: Lang; projeto: Projeto }
+const { lang, projeto } = Astro.props;
+const { Content } = await render(projeto);
+const d = projeto.data;
+---
+<Caminho lang={lang} arquivo={`${projeto.slug}.md`} projeto />
+<span class="kind">{d.tipo}</span>
+<h1 class="title">{d.nome}</h1>
+<p class="lede">{d.resumo}</p>
+{d.numeros.length > 0 && (
+  <div class="facts">
+    {d.numeros.map((n) => <div><b>{n.valor}</b><span>{n.rotulo}</span></div>)}
+  </div>
+)}
+<div class="corpo"><Content /></div>
+<ul class="stack">{d.stack.map((s) => <li>{s}</li>)}</ul>
+<p class="links">{d.links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.rotulo} ↗</a>)}</p>

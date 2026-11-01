@@ -1,0 +1,16 @@
+---
+import Caminho from './Caminho.astro';
+import { ARQUIVOS, type Lang } from '../i18n';
+import { ARTIGOS, LINKS, PESQUISA } from '../data/perfil';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = PESQUISA[lang];
+---
+<Caminho lang={lang} arquivo={ARQUIVOS[lang].pesquisa} />
+<h1 class="title">{t.titulo}</h1>
+<p>{t.texto}</p>
+<h2 class="sec">{t.selecao}</h2>
+<ol class="papers">
+  {ARTIGOS.map((a) => <li>{a.titulo} <em>{a.revista}</em> {a.ref} <span class="y">({a.ano})</span></li>)}
+</ol>
+<p style="margin-top:1.4em"><a href={LINKS.lattes} target="_blank" rel="noopener">{t.completa} ↗</a></p>

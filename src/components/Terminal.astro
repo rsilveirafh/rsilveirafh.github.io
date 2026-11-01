@@ -1,0 +1,47 @@
+---
+// Terminal da esquerda. Fica de pé entre as páginas (transition:persist), então o histórico
+// sobrevive à navegação. Recebe os dados dos dois idiomas de uma vez, para o `lang` funcionar.
+import { ARQUIVOS, ROTAS } from '../i18n';
+import { CV_PDF, EMAIL, LINKS } from '../data/perfil';
+import { projetosDe } from '../lib/projetos';
+
+const resumo = async (lang: 'pt' | 'en') =>
+  (await projetosDe(lang)).map((p) => ({
+    slug: p.slug, nome: p.data.nome, tipo: p.data.tipo, resumo: p.data.resumo, stack: p.data.stack, links: p.data.links,
+  }));
+
+const dados = {
+  rotas: ROTAS,
+  arquivos: ARQUIVOS,
+  projetos: { pt: await resumo('pt'), en: await resumo('en') },
+  cvPdf: CV_PDF,
+  email: EMAIL,
+  links: LINKS,
+};
+---
+
+<section class="monitor monitor--term" id="terminal" aria-label="Terminal" transition:persist="terminal">
+  <div class="bezel">
+    <div class="screen term">
+      <div class="term-title">
+        <span>ricardo@dev: ~</span>
+        <button class="term-toggle" id="term-toggle" type="button" aria-expanded="false" aria-controls="term-out">terminal ▴</button>
+      </div>
+      <div class="term-out" id="term-out" role="log" aria-live="polite"></div>
+      <form class="term-line" id="term-form" autocomplete="off">
+        <label class="prompt" for="term-input">ricardo@dev:~$</label>
+        <input class="term-input" id="term-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" />
+      </form>
+      <div class="term-chips" id="term-chips"></div>
+    </div>
+  </div>
+  <div class="stand" aria-hidden="true"><i></i><b></b></div>
+  <script type="application/json" id="term-dados" set:html={JSON.stringify(dados)} />
+</section>
+
+<script>
+  import { navigate } from 'astro:transitions/client';
+  import { iniciarTerminal } from '../lib/terminal';
+
+  iniciarTerminal(navigate);
+</script>

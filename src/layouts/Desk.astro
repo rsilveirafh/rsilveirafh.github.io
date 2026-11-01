@@ -1,0 +1,81 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource/ibm-plex-sans/400.css';
+import '@fontsource/ibm-plex-sans/400-italic.css';
+import '@fontsource/ibm-plex-sans/500.css';
+import '@fontsource/ibm-plex-sans/600.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+import '../styles/global.css';
+import Terminal from '../components/Terminal.astro';
+import { ARQUIVOS, ROTAS, SECOES, UI, urlDe, type Lang, type Secao } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  view: string;      // seção ou slug de projeto mostrado no monitor
+  secao: Secao;      // item do menu que fica marcado
+  titulo?: string;   // título da aba; o nome vem sempre junto
+  descricao?: string;
+}
+
+const { lang, view, secao, titulo, descricao } = Astro.props;
+const outro: Lang = lang === 'pt' ? 'en' : 'pt';
+const ui = UI[lang];
+const title = titulo ? `${titulo} · Ricardo Silveira` : 'Ricardo Silveira';
+const desc = descricao ?? ui.descricao;
+const canonical = new URL(urlDe(view, lang), Astro.site);
+const alternativo = new URL(urlDe(view, outro), Astro.site);
+---
+
+<!doctype html>
+<html lang={lang === 'pt' ? 'pt-BR' : 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={lang === 'pt' ? 'pt-BR' : 'en'} href={canonical} />
+    <link rel="alternate" hreflang={outro === 'pt' ? 'pt-BR' : 'en'} href={alternativo} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#0C1211" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={lang === 'pt' ? 'pt_BR' : 'en_US'} />
+    <ClientRouter />
+  </head>
+  <body>
+    <div class="desk">
+      <Terminal />
+
+      <section class="monitor monitor--doc" aria-label={lang === 'pt' ? 'Portfólio' : 'Portfolio'}>
+        <div class="bezel">
+          <div class="screen doc">
+            <header class="doc-top">
+              <a class="brand" href={ROTAS[lang].sobre} data-view="sobre">Ricardo Silveira</a>
+              <nav class="nav" aria-label={ui.secoes}>
+                {SECOES.map((s) => (
+                  <a href={ROTAS[lang][s]} data-view={s} aria-current={s === secao ? 'page' : undefined}>
+                    <span>{ui.nav[s]}</span><small>{ARQUIVOS[lang][s]}</small>
+                  </a>
+                ))}
+              </nav>
+              <div class="lang" role="group" aria-label={ui.idioma}>
+                <a href={urlDe(view, 'pt')} hreflang="pt-BR" data-run="lang pt" aria-current={lang === 'pt' ? 'true' : undefined}>PT</a>
+                <a href={urlDe(view, 'en')} hreflang="en" data-run="lang en" aria-current={lang === 'en' ? 'true' : undefined}>EN</a>
+              </div>
+            </header>
+            <main class="doc-body" id="conteudo" tabindex="-1" data-pagina={view} data-lang={lang}>
+              <slot />
+            </main>
+            <footer class="doc-status"><span>{ui.status}</span><span>github.com/rsilveirafh</span></footer>
+          </div>
+        </div>
+        <div class="stand" aria-hidden="true"><i></i><b></b></div>
+      </section>
+    </div>
+  </body>
+</html>

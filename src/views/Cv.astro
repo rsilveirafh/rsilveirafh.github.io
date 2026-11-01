@@ -1,0 +1,26 @@
+---
+import Caminho from './Caminho.astro';
+import { ARQUIVOS, type Lang } from '../i18n';
+import { CV, CV_PDF, STACK } from '../data/perfil';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = CV[lang];
+const pdf = CV_PDF[lang];
+---
+<Caminho lang={lang} arquivo={ARQUIVOS[lang].cv} />
+<h1 class="title">{t.titulo}</h1>
+{pdf && <p><a class="btn" href={pdf} download>{t.baixar} <small>{pdf.split('/').pop()}</small></a></p>}
+<h2 class="sec">{t.experiencia}</h2>
+<ol class="tl">
+  {t.empregos.map((j) => (
+    <li><span class="when">{j.quando}</span><div><strong>{j.onde}</strong> <span class="r">· {j.cargo}</span>{j.texto && <p>{j.texto}</p>}</div></li>
+  ))}
+</ol>
+<h2 class="sec">{t.formacao}</h2>
+<ol class="tl">
+  {t.estudos.map((e) => (
+    <li><span class="when">{e.quando || '·'}</span><div><strong>{e.curso}</strong> <span class="r">· {e.onde}</span></div></li>
+  ))}
+</ol>
+<h2 class="sec">Stack</h2>
+<ul class="stack">{STACK.map((s) => <li>{s}</li>)}</ul>

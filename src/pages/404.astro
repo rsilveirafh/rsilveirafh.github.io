@@ -1,0 +1,10 @@
+---
+import Desk from '../layouts/Desk.astro';
+import { ROTAS } from '../i18n';
+---
+<Desk lang="pt" view="sobre" secao="sobre" titulo="404">
+  <p class="path">~/404</p>
+  <h1 class="title">Página não encontrada</h1>
+  <p class="lede">Esse endereço não existe. Page not found.</p>
+  <p class="links"><a href={ROTAS.pt.sobre} data-view="sobre">Ir para o início</a><a href={ROTAS.en.sobre}>Go to the English site</a></p>
+</Desk>

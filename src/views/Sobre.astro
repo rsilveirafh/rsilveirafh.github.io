@@ -1,0 +1,31 @@
+---
+import Caminho from './Caminho.astro';
+import { ARQUIVOS, ROTAS, urlDe, type Lang } from '../i18n';
+import { SOBRE } from '../data/perfil';
+import { projetosDe } from '../lib/projetos';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = SOBRE[lang];
+const destaques = (await projetosDe(lang)).filter((p) => p.data.destaque);
+---
+<Caminho lang={lang} arquivo={ARQUIVOS[lang].sobre} />
+<h1 class="name">Ricardo Silveira</h1>
+<p class="role">{t.papel}</p>
+<p class="lede">{t.lede}</p>
+<p class="avail"><span class="dot" aria-hidden="true"></span><span><strong>{t.disponivel}</strong> {t.busca}</span></p>
+<a class="btn" href={ROTAS[lang].contato} data-view="contato">{t.botao} <small>cat {ARQUIVOS[lang].contato}</small></a>
+<h2 class="sec">{t.destaque}</h2>
+<div class="cards wide">
+  {destaques.map((p) => (
+    <a class="card" href={urlDe(p.slug, lang)} data-view={p.slug}>
+      <span class="kind">{p.data.tipo}</span>
+      <span class="t">{p.data.nome}</span>
+      <span class="s">{p.data.resumo}</span>
+      <span class="file">{ARQUIVOS[lang].dir}/{p.slug}.md</span>
+    </a>
+  ))}
+</div>
+<h2 class="sec">{t.comoTitulo}</h2>
+<dl class="how">
+  {t.como.map(([a, b]) => <div><dt>{a}</dt><dd>{b}</dd></div>)}
+</dl>

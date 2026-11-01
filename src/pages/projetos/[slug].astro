@@ -1,0 +1,13 @@
+---
+import Desk from '../../layouts/Desk.astro';
+import Projeto from '../../views/Projeto.astro';
+import { projetosDe, type Projeto as P } from '../../lib/projetos';
+
+export async function getStaticPaths() {
+  return (await projetosDe('pt')).map((projeto) => ({ params: { slug: projeto.slug }, props: { projeto } }));
+}
+const { projeto } = Astro.props as { projeto: P };
+---
+<Desk lang="pt" view={projeto.slug} secao="projetos" titulo={projeto.data.nome} descricao={projeto.data.resumo}>
+  <Projeto lang="pt" projeto={projeto} />
+</Desk>

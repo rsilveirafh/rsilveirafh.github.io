@@ -1,0 +1,8 @@
+---
+import { ARQUIVOS, ROTAS, type Lang } from '../i18n';
+interface Props { lang: Lang; arquivo: string; projeto?: boolean }
+const { lang, arquivo, projeto } = Astro.props;
+---
+{projeto
+  ? <p class="path">~/<a href={ROTAS[lang].projetos} data-view="projetos">{ARQUIVOS[lang].dir}</a>/{arquivo}</p>
+  : <p class="path">~/{arquivo}</p>}
