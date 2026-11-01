@@ -3,7 +3,7 @@ nome: "Gestão de projetos e horas"
 tipo: "produto interno · Seteg"
 grupo: seteg
 resumo: "O sistema de gestão de projetos e horas que substituiu uma ferramenta paga e passou a ser usado pela empresa inteira."
-stack: ["Product Owner", "Fastify", "Prisma", "React"]
+stack: ["Product Owner", "Next.js", "React", "Prisma"]
 numeros:
   - { valor: "~45", rotulo: "pessoas usando, a empresa inteira" }
   - { valor: "1", rotulo: "ferramenta paga substituída" }

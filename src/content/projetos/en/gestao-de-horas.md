@@ -3,7 +3,7 @@ nome: "Project and time tracking"
 tipo: "internal product · Seteg"
 grupo: seteg
 resumo: "The project and time management system that replaced a paid tool and is used across the whole company."
-stack: ["Product Owner", "Fastify", "Prisma", "React"]
+stack: ["Product Owner", "Next.js", "React", "Prisma"]
 numeros:
   - { valor: "~45", rotulo: "people using it, the whole company" }
   - { valor: "1", rotulo: "paid tool replaced" }
