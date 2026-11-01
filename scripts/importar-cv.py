@@ -2,10 +2,12 @@
 
 Uso:  python scripts/importar-cv.py ../curriculum/dados/cv.yaml
 
-Gera src/data/cv.json. Ficam de fora o telefone e a foto.
-Rode de novo sempre que o cv.yaml mudar e faça commit do cv.json.
+Gera src/data/cv.json (sem o telefone e a foto) e copia os PDFs da versão lateral
+de ../curriculum/saida/ para public/cv/. Rode `sh compilar.sh` no curriculum antes, para os
+PDFs estarem em dia. Depois faça commit do cv.json e dos PDFs.
 """
 import json
+import shutil
 import sys
 from pathlib import Path
 
@@ -37,3 +39,16 @@ dados = limpar(cv)
 assert 'telefone' not in json.dumps(dados), 'telefone vazou para o JSON'
 destino.write_text(json.dumps(dados, ensure_ascii=False, indent=1) + '\n', encoding='utf-8', newline='\n')
 print(f'{destino} ({len(dados["experiencia"])} experiências, {len(dados["publicacoes"])} publicações)')
+
+# PDFs que o botão "Baixar PDF" oferece (os PDFs trazem o telefone; decisão do Ricardo em 2026-11-01).
+PDFS = {'curriculo-ricardo-silveira-lateral-pt.pdf': 'curriculo-ricardo-silveira.pdf',
+        'resume-ricardo-silveira-lateral-en.pdf': 'resume-ricardo-silveira.pdf'}
+saida = origem.parent.parent / 'saida'
+pasta = destino.parent.parent.parent / 'public' / 'cv'
+pasta.mkdir(parents=True, exist_ok=True)
+for de, para in PDFS.items():
+    if (saida / de).exists():
+        shutil.copyfile(saida / de, pasta / para)
+        print(f'PDF: {para}')
+    else:
+        print(f'aviso: {saida / de} não existe; rode compilar.sh no curriculum')

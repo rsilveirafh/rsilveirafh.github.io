@@ -10,7 +10,7 @@ No ar em **https://rsilveirafh.github.io**, em português (`/`) e inglês (`/en/
 |---|---|
 | acrescentar ou mudar um projeto | `src/content/projetos/pt/<slug>.md` e `src/content/projetos/en/<slug>.md` (mesmo nome nos dois) |
 | textos de sobre, pesquisa e contato | `src/data/perfil.ts` |
-| currículo e publicações | no repositório privado `curriculum` (`dados/cv.yaml`); depois rode `python scripts/importar-cv.py ../curriculum/dados/cv.yaml`, que gera `src/data/cv.json` sem o telefone |
+| currículo e publicações | no repositório privado `curriculum` (`dados/cv.yaml`); depois rode `python scripts/importar-cv.py ../curriculum/dados/cv.yaml`, que gera `src/data/cv.json` (sem o telefone) e copia os PDFs para `public/cv/`; antes, rode `sh compilar.sh` no curriculum |
 | prints de um projeto | coloque em `public/projetos/<slug>/` e liste em `imagens` no frontmatter (`arquivo` e `legenda`) |
 | menu, endereços e nomes dos "arquivos" | `src/i18n.ts` |
 | cores e layout | `src/styles/global.css` |

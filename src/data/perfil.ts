@@ -112,8 +112,8 @@ export const CV_TXT = {
   en: { titulo: 'Résumé', baixar: 'Download PDF', experiencia: 'Experience', formacao: 'Education', posdoc: 'Postdocs', competencias: 'Skills', idiomas: 'Languages', cursos: 'Courses' },
 };
 
-// PDF do currículo por idioma (arquivo em public/). null = sem botão de download.
-export const CV_PDF: Record<'pt' | 'en', string | null> = { pt: null, en: null };
+// PDF do currículo por idioma (copiado para public/cv/ pelo scripts/importar-cv.py). null = sem botão.
+export const CV_PDF: Record<'pt' | 'en', string | null> = { pt: '/cv/curriculo-ricardo-silveira.pdf', en: '/cv/resume-ricardo-silveira.pdf' };
 
 export const CONTATO = {
   pt: { titulo: 'Contato', texto: 'Escreva para o e-mail ou me chame no LinkedIn.', copiar: 'copiar', copiado: 'copiado', fuso: 'Trabalho remoto, fuso UTC−3.' },
