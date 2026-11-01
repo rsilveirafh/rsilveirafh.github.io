@@ -296,6 +296,13 @@
    "curto": true,
    "pt": "Plataforma de caronas para eleitores com dificuldade de locomoção no 2º turno de 2026, em três capitais.",
    "en": "Ride-sharing platform for voters with reduced mobility in the 2026 runoff election, in three state capitals."
+  },
+  {
+   "nome": "rr-quant",
+   "curto": true,
+   "link": "github.com/rsilveirafh/rr-quant",
+   "pt": "Painel quantitativo pessoal que roda sozinho a cada pregão (Python, Vercel): retrato pré-mercado de 46 ativos, leitura de regime e correlações e um placar de regressão logística para o Ibovespa.",
+   "en": "Personal quant dashboard that runs itself every trading session (Python, Vercel): a pre-market snapshot of 46 assets, regime and correlation reads and a logistic-regression scoreboard for the Ibovespa."
   }
  ],
  "formacao": [
