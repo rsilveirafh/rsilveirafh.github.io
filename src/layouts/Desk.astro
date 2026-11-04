@@ -22,7 +22,7 @@ interface Props {
 const { lang, view, secao, titulo, descricao } = Astro.props;
 const outro: Lang = lang === 'pt' ? 'en' : 'pt';
 const ui = UI[lang];
-const title = titulo ? `${titulo} · Ricardo Silveira` : 'Ricardo Silveira';
+const title = titulo ? `${titulo} · Ricardo Silveira` : 'Ricardo Rodrigues da Silveira Filho';
 const desc = descricao ?? ui.descricao;
 const canonical = new URL(urlDe(view, lang), Astro.site);
 const alternativo = new URL(urlDe(view, outro), Astro.site);

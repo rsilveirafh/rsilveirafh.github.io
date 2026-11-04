@@ -6,6 +6,7 @@ resumo: "Painel quantitativo pessoal que roda sozinho a cada pregão."
 stack: ["Python", "yfinance", "Vercel"]
 links:
   - { rotulo: "GitHub", url: "https://github.com/rsilveirafh/rr-quant" }
+  - { rotulo: "Painel ao vivo", url: "https://rr-quant.vercel.app" }
 numeros:
   - { valor: "46", rotulo: "ativos por pregão" }
 ordem: 16

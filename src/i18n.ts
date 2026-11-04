@@ -24,13 +24,13 @@ export const UI = {
     status: 'remoto · UTC−3',
     idioma: 'Idioma',
     secoes: 'Seções',
-    descricao: 'Ricardo Silveira: biólogo (PhD), cientista de dados e desenvolvedor. Projetos, pesquisa, currículo e contato.',
+    descricao: 'Ricardo Rodrigues da Silveira Filho: biólogo (PhD), cientista de dados e desenvolvedor. Projetos, pesquisa, currículo e contato.',
   },
   en: {
     nav: { sobre: 'About', projetos: 'Projects', pesquisa: 'Research', cv: 'Résumé', contato: 'Contact' },
     status: 'remote · UTC−3',
     idioma: 'Language',
     secoes: 'Sections',
-    descricao: 'Ricardo Silveira: biologist (PhD), data scientist and developer. Projects, research, résumé and contact.',
+    descricao: 'Ricardo Rodrigues da Silveira Filho: biologist (PhD), data scientist and developer. Projects, research, résumé and contact.',
   },
 } as const;

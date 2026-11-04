@@ -6,6 +6,7 @@ resumo: "Personal quant dashboard that runs itself every trading session."
 stack: ["Python", "yfinance", "Vercel"]
 links:
   - { rotulo: "GitHub", url: "https://github.com/rsilveirafh/rr-quant" }
+  - { rotulo: "Live dashboard", url: "https://rr-quant.vercel.app" }
 numeros:
   - { valor: "46", rotulo: "assets per session" }
 ordem: 16

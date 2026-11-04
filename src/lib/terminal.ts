@@ -99,7 +99,7 @@ export function iniciarTerminal(navegar: Navegar) {
     const pt = st.lang === 'pt';
     if (v === 'sobre') {
       print(`<span class="hi">Ricardo Silveira</span> · ${pt ? 'biólogo (PhD), cientista de dados e desenvolvedor' : 'biologist (PhD), data scientist and developer'}`,
-        `<span class="dim">${pt ? 'disponível a partir do fim de novembro de 2026' : 'available from late November 2026'}</span>`, nota());
+        `<span class="dim">${pt ? 'em busca de vagas em dados, produto e IA aplicada' : 'looking for roles in data, product and applied AI'}</span>`, nota());
     } else if (v === 'projetos') {
       const w = Math.max(...projetos().map((p) => p.slug.length)) + 3;
       print(`<span class="dim">${dados.arquivos[st.lang].projetos}  (${projetos().length})</span>`,

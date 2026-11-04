@@ -21,8 +21,8 @@
   "lattes": "lattes.cnpq.br/6028156427352678"
  },
  "resumo": {
-  "pt": "Cientista de dados e desenvolvedor, com doutorado em Zoologia e dois pós-doutorados. Nos últimos dois anos, liderei a área de Inovação de uma consultoria ambiental como Product Owner e Tech Lead: sistemas internos usados pela empresa inteira, uma plataforma SaaS de gestão ESG, uma suíte de coleta de dados de campo e dashboards de BI para clientes. Antes, criei e mantive um chatbot de atendimento com milhares de usuários por mês. Programo em TypeScript, Python e R e coordeno times com escopo claro, critérios de aceite e decisões documentadas (ADRs). Integro IA generativa ao fluxo de desenvolvimento e acompanho o resultado com métricas: nas tarefas avaliadas, o tempo caiu cerca de 70%.",
-  "en": "Data scientist and software developer with a PhD in Zoology and two postdocs. For the last two years I led the Innovation area of an environmental consultancy as Product Owner and Tech Lead: internal systems used across the company, an ESG management SaaS platform, a field data collection suite and BI dashboards for clients. Before that, I built and ran a customer service chatbot with thousands of monthly users. I code in TypeScript, Python and R, and I lead teams with clear scope, acceptance criteria and documented decisions (ADRs). I build generative AI into the development workflow and track the results with metrics: in the assessed tasks, time dropped by about 70%."
+  "pt": "Cientista de dados e desenvolvedor, com doutorado em Zoologia, dois pós-doutorados e mais de quinze anos de consultoria ambiental. Uno o campo e o software: sei como o dado é coletado e construo o sistema que o recebe. Nos últimos dois anos, liderei a área de Inovação de uma consultoria ambiental como Product Owner e Tech Lead, com sistemas internos usados pela empresa inteira, uma plataforma SaaS de gestão ESG, uma suíte de coleta de dados de campo e dashboards de BI para clientes. Antes, criei e mantive um chatbot de atendimento com milhares de usuários por mês e ajudei a criar um app de entregas para o comércio de bairro. Programo em TypeScript, Python e R, coordeno times com escopo claro e decisões documentadas e uso IA generativa no desenvolvimento, com o ganho medido em horas.",
+  "en": "Data scientist and software developer with a PhD in Zoology, two postdocs and more than fifteen years in environmental consulting. I bring the field and software together: I know how the data is collected and I build the system that receives it. For the last two years I led the Innovation area of an environmental consultancy as Product Owner and Tech Lead, with internal systems used across the company, an ESG management SaaS platform, a field data collection suite and BI dashboards for clients. Before that, I built and ran a customer service chatbot with thousands of monthly users and helped create a delivery app for neighbourhood shops. I code in TypeScript, Python and R, lead teams with clear scope and documented decisions, and use generative AI in development, with the gain measured in hours."
  },
  "experiencia": [
   {
@@ -103,8 +103,8 @@
     },
     {
      "curto": false,
-     "pt": "Como Analista Ambiental: monitoramento de fauna em campo, relatórios técnicos e análises para licenciamento ambiental.",
-     "en": "As Environmental Analyst: field fauna monitoring, technical reports and analyses for environmental licensing."
+     "pt": "Como Analista Ambiental: monitoramento da herpetofauna nos PBAs de três complexos da ENGIE (eólicos Santo Agostinho e Assu, fotovoltaico Floresta), com análise de dados e relatórios técnicos para o licenciamento.",
+     "en": "As Environmental Analyst: herpetofauna monitoring for the environmental programmes of three ENGIE complexes (Santo Agostinho and Assu wind, Floresta solar), with data analysis and technical reports for licensing."
     }
    ]
   },
@@ -138,8 +138,8 @@
     },
     {
      "curto": true,
-     "pt": "Responsável pelo banco de dados do **Na Esquina**, app de entregas para mercados de pequeno e médio porte, criado durante a pandemia, antes de os grandes apps de delivery atenderem o comércio de bairro.",
-     "en": "Owned the database of **Na Esquina**, a delivery app for small and mid-sized grocery stores, built during the pandemic, before the major delivery apps served neighbourhood shops."
+     "pt": "Concebi, com os outros dois devs do time, o **Na Esquina**, app de entregas para mercados de pequeno e médio porte feito em seis meses durante a pandemia, antes de os grandes apps de delivery atenderem o comércio de bairro. Criei o nome e a marca e montei o banco de dados (Firebase), com um pipeline próprio que listava os produtos e buscava as imagens na internet para compor o catálogo.",
+     "en": "Co-conceived **Na Esquina** with the two other developers on the team: a delivery app for small and mid-sized grocery stores, built in six months during the pandemic, before the major delivery apps served neighbourhood shops. I created the name and the brand and built the Firebase database, with my own pipeline that listed products and pulled their images from the web to build the catalog."
     }
    ]
   },
@@ -220,14 +220,19 @@
     "pt": "Brasil",
     "en": "Brazil"
    },
-   "inicio": "2011-01",
-   "fim": "2024-12",
+   "inicio": 2010,
+   "fim": 2024,
    "cargos": [],
    "itens": [
     {
      "curto": true,
-     "pt": "EIA/RIMA, levantamento e monitoramento de herpetofauna e análises ecológicas em R para consultorias, com relatórios didáticos em Quarto.",
-     "en": "Environmental impact assessments, herpetofauna surveys and monitoring, and ecological analyses in R for consultancies, with didactic Quarto reports."
+     "pt": "Herpetofauna no licenciamento de energia, mineração e infraestrutura, contratado por consultorias (ADL, Life, Maron, Ophian, Seteg, Spizaetus, Táxon): monitoramento de PBA e diagnósticos para EIA/RIMA, RAS e RCA em complexos eólicos e solares (**ENEL, ENGIE, AES Brasil, Elera**), mineração (**Mineração Rio do Norte**, no Pará), ferrovia (Transnordestina), termelétrica (CELSE) e gasoduto (TAG).",
+     "en": "Herpetofauna work for environmental licensing in energy, mining and infrastructure, hired by consultancies (ADL, Life, Maron, Ophian, Seteg, Spizaetus, Táxon): monitoring programmes and baseline surveys for impact assessments and licensing reports at wind and solar complexes (**ENEL, ENGIE, AES Brasil, Elera**), a bauxite mine in the Amazon (**Mineração Rio do Norte**), a railway (Transnordestina), a thermal power plant (CELSE) and a gas pipeline (TAG)."
+    },
+    {
+     "curto": true,
+     "pt": "Sócio-fundador da **Consulte um Cientista** (2020–2023), consultoria estatística e científica para empresas e pessoas físicas, com análises em R e relatórios didáticos em Quarto.",
+     "en": "Co-founder of **Consulte um Cientista** (2020–2023), a statistics and research consultancy for companies and individuals, with analyses in R and didactic Quarto reports."
     }
    ]
   },
@@ -422,7 +427,7 @@
     "pt": "Back-end e dados",
     "en": "Back end and data"
    },
-   "itens": "Node.js (Fastify, Express), FastAPI, Prisma, Drizzle, Zod, PostgreSQL (PostGIS, pgvector, RLS), Supabase, Redis, BullMQ, PowerSync (offline-first)"
+   "itens": "Node.js (Fastify, Express), FastAPI, Prisma, Drizzle, Zod, PostgreSQL (PostGIS, pgvector, RLS), Supabase, Firebase, Redis, BullMQ, PowerSync (offline-first)"
   },
   {
    "area": {
@@ -629,12 +634,28 @@
    "texto": "1ª a 4ª campanhas de monitoramento de quelônios marinhos do Porto Organizado de Natal (CODERN). Elementus Soluções Ambientais."
   },
   {
+   "ano": "2024–2025",
+   "texto": "Monitoramento da herpetofauna, fase de operação, do Complexo Eólico Assu e do Complexo Fotovoltaico Floresta (ENGIE). Seteg, primeiro como consultor e depois como Analista Ambiental."
+  },
+  {
    "ano": 2024,
    "texto": "1ª campanha de monitoramento da herpetofauna do Complexo Eólico Santo Agostinho (ENGIE). Lajes e Pedro Avelino, RN."
   },
   {
    "ano": 2024,
+   "texto": "Consultor do Programa de Monitoramento da Herpetofauna, fase de operação, dos complexos eólicos Delfina, Lagoa e Umburanas (ENEL). ADL."
+  },
+  {
+   "ano": 2024,
    "texto": "Consultor do Programa de Monitoramento da Herpetofauna, fase de operação, do Complexo Solar Fotovoltaico ALEX (Elera Renováveis). Spizaetus Ambiental. Tabuleiro do Norte, CE."
+  },
+  {
+   "ano": 2024,
+   "texto": "Diagnóstico da herpetofauna para o RAS (licença prévia) do Complexo Solar RioHybrid. Life Estudos e Projetos Ambientais, para a Maron Ambiental."
+  },
+  {
+   "ano": 2022,
+   "texto": "Diagnóstico da herpetofauna para o RAS (licença prévia) do Complexo Eólico Cajuína Norte (AES Brasil). Maron Ambiental."
   },
   {
    "ano": 2021,
@@ -650,11 +671,19 @@
   },
   {
    "ano": 2019,
-   "texto": "RCA de operação: licenciamento ambiental do Gasoduto Lagoa Parda, ES."
+   "texto": "RCA de operação: licenciamento ambiental do Gasoduto Lagoa Parda (TAG), ES. Táxon, para a Arcadis."
   },
   {
    "ano": 2018,
    "texto": "EIA/RIMA de instalação e de operação (2019): LT 530 kV do Complexo Eólico Ventos de Santa Ângela, PI."
+  },
+  {
+   "ano": 2013,
+   "texto": "Monitoramento da herpetofauna da Ferrovia Transnordestina. Ophian."
+  },
+  {
+   "ano": 2011,
+   "texto": "Monitoramento da herpetofauna da Mineração Rio do Norte (MRN). Porto Trombetas, Oriximiná, PA."
   }
  ],
  "coorientacoes": [
@@ -701,8 +730,8 @@
  ],
  "vinculos": [
   {
-   "ano": "2019–",
-   "texto": "Membro associado da Consulte um Cientista, consultoria estatística e de dados."
+   "ano": "2020–2023",
+   "texto": "Sócio-fundador da Consulte um Cientista, consultoria estatística e científica."
   },
   {
    "ano": "2012–2018",

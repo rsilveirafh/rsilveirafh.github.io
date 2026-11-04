@@ -4,6 +4,8 @@ tipo: "SaaS e BI · Seteg"
 grupo: seteg
 resumo: "Uma plataforma SaaS de gestão ESG financiada por edital de inovação, e os painéis de emissões e metas que a acompanham."
 stack: ["Power BI", "DAX", "GHG Protocol"]
+links:
+  - { rotulo: "Plataforma", url: "https://myesg.setegce.com" }
 ordem: 4
 destaque: false
 ---
