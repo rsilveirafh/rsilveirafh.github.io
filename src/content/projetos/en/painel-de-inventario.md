@@ -1,13 +1,13 @@
 ---
 nome: "Forest inventory dashboard"
 tipo: "client dashboard · Seteg"
-grupo: seteg
+frente: ponte
 resumo: "A dashboard that tracks a forest inventory in progress: census area completed, trees measured, plots installed and daily output per field team."
 stack: ["Next.js", "MSAL", "Microsoft Graph", "SharePoint", "site estático"]
 numeros:
   - { valor: "5 min", rotulo: "between refreshes" }
   - { valor: "0", rotulo: "servers" }
-ordem: 8
+ordem: 22
 destaque: false
 ---
 

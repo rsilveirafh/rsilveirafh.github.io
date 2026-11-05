@@ -1,14 +1,14 @@
 ---
 nome: "Nubus"
 tipo: "chatbot · Conciso TI"
-grupo: antes
+frente: software
 resumo: "The customer service chatbot I conceived, built and ran on the Blip platform."
 stack: ["Blip", "chatbot", "análise de dados"]
 numeros:
   - { valor: "3–6k", rotulo: "unique users a month" }
   - { valor: "10k", rotulo: "at peak" }
   - { valor: "4.7–4.8", rotulo: "average rating, out of 5" }
-ordem: 20
+ordem: 11
 destaque: false
 ---
 

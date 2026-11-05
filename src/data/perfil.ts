@@ -59,18 +59,18 @@ export const SOBRE = {
   },
 };
 
-export const GRUPOS = {
+// Blocos da página de projetos, na ordem em que aparecem. A âncora deixa o currículo apontar
+// direto para um bloco (/projetos/#software, /en/projects/#biology).
+export const FRENTES = {
   pt: {
-    seteg: { titulo: 'Na Seteg (2024–2026)', nota: 'Consultoria ambiental. Sem nomes de sistemas nem de clientes, por confidencialidade.' },
-    proprio: { titulo: 'Projetos próprios e código aberto', nota: '' },
-    antes: { titulo: 'Na Conciso TI (2020–2024)', nota: '' },
-    pesquisa: { titulo: 'Pesquisa', nota: '' },
+    software: { titulo: 'Software e dados', ancora: 'software', nota: 'Sistemas, produtos e painéis, do levantamento de requisitos ao deploy.' },
+    ponte: { titulo: 'Biologia e código', ancora: 'biologia-e-codigo', nota: 'Onde as duas formações se encontram: software feito por quem conhece o dado desde a coleta.' },
+    biologia: { titulo: 'Biologia e pesquisa', ancora: 'biologia', nota: 'Mais de quinze anos de campo e pesquisa em herpetologia, ecologia e conservação.' },
   },
   en: {
-    seteg: { titulo: 'At Seteg (2024–2026)', nota: 'Environmental consultancy. System and client names left out for confidentiality.' },
-    proprio: { titulo: 'Personal and open-source projects', nota: '' },
-    antes: { titulo: 'At Conciso TI (2020–2024)', nota: '' },
-    pesquisa: { titulo: 'Research', nota: '' },
+    software: { titulo: 'Software and data', ancora: 'software', nota: 'Systems, products and dashboards, from requirements to deployment.' },
+    ponte: { titulo: 'Biology and code', ancora: 'biology-and-code', nota: 'Where both backgrounds meet: software built by someone who knows the data from the moment it is collected.' },
+    biologia: { titulo: 'Biology and research', ancora: 'biology', nota: 'More than fifteen years of fieldwork and research in herpetology, ecology and conservation.' },
   },
 };
 

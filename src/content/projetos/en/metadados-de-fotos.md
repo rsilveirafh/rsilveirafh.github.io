@@ -1,13 +1,13 @@
 ---
 nome: "Field photo metadata extractor"
 tipo: "desktop app · Seteg"
-grupo: seteg
+frente: ponte
 resumo: "A program that reads date, time and coordinates from field photos and delivers them in a spreadsheet, with the municipality for each point."
 stack: ["Python", "OCR (Tesseract)", "EXIF", "geocodificação reversa", "Windows"]
 numeros:
   - { valor: "3", rotulo: "reading layers per photo" }
   - { valor: "0", rotulo: "installs for the team" }
-ordem: 7
+ordem: 23
 destaque: false
 ---
 

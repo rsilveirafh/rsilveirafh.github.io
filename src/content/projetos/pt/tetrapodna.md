@@ -1,7 +1,7 @@
 ---
 nome: "tetrapoDNA"
 tipo: "ciência aberta"
-grupo: proprio
+frente: ponte
 resumo: "Quais anfíbios, répteis, aves e mamíferos do Brasil ainda não têm nenhuma sequência de DNA pública?"
 stack: ["R", "taxize", "GitHub Actions", "GitHub Pages"]
 links:
@@ -11,7 +11,7 @@ numeros:
   - { valor: "~4.800", rotulo: "espécies conferidas" }
   - { valor: "2", rotulo: "bases de sequências (BOLD e GenBank)" }
   - { valor: "semanal", rotulo: "atualização" }
-ordem: 10
+ordem: 20
 destaque: true
 ---
 

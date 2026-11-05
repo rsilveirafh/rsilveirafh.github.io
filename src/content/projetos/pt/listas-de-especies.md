@@ -1,7 +1,7 @@
 ---
 nome: "amphiBR e ReptiliaBR"
 tipo: "código aberto"
-grupo: proprio
+frente: ponte
 resumo: "Atualização de pacotes R da comunidade para as listas oficiais brasileiras de 2026."
 stack: ["R", "pacotes R"]
 links:
@@ -9,7 +9,7 @@ links:
   - { rotulo: "ReptiliaBR (proposta)", url: "https://github.com/omarentiauspe/ReptiliaBR/issues/1" }
 numeros:
   - { valor: "1.251", rotulo: "espécies de anfíbios na lista de 2026" }
-ordem: 14
+ordem: 24
 destaque: false
 ---
 

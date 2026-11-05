@@ -1,12 +1,12 @@
 ---
 nome: "Field data collection"
 tipo: "app suite · Seteg"
-grupo: seteg
+frente: ponte
 resumo: "Apps that replace paper forms and spreadsheets in fauna and flora surveys, so records arrive structured instead of being retyped weeks later."
 stack: ["PostgreSQL", "PostGIS", "Supabase (RLS)", "offline-first"]
 numeros:
   - { valor: "offline", rotulo: "works without signal and syncs later" }
-ordem: 3
+ordem: 21
 destaque: true
 ---
 

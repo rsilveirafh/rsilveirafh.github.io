@@ -9,7 +9,9 @@ const projetos = defineCollection({
   schema: z.object({
     nome: z.string(),
     tipo: z.string(),
-    grupo: z.enum(['seteg', 'proprio', 'antes', 'pesquisa']),
+    // Bloco da página de projetos: software e dados, biologia e código juntos, ou biologia e pesquisa.
+    // O empregador fica no campo `tipo` ("painel interno · Seteg").
+    frente: z.enum(['software', 'ponte', 'biologia']),
     resumo: z.string(),
     stack: z.array(z.string()).default([]),
     links: z.array(z.object({ rotulo: z.string(), url: z.url() })).default([]),

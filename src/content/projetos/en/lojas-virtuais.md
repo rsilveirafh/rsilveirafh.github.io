@@ -1,13 +1,13 @@
 ---
 nome: "Online stores for small businesses"
 tipo: "local commerce"
-grupo: proprio
+frente: software
 resumo: "An online store template for confectioneries, with a product configurator, PIX instant payments and server-side pricing."
 stack: ["Next.js", "Supabase", "PIX", "PWA", "Tailwind"]
 numeros:
   - { valor: "2", rotulo: "stores built on the same template" }
   - { valor: "259", rotulo: "automated tests" }
-ordem: 13
+ordem: 7
 destaque: false
 ---
 

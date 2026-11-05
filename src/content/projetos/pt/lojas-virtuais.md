@@ -1,13 +1,13 @@
 ---
 nome: "Lojas virtuais para pequenos negócios"
 tipo: "comércio local"
-grupo: proprio
+frente: software
 resumo: "Um modelo de loja virtual para confeitarias, com configurador de produtos, pagamento por PIX e preço calculado no servidor."
 stack: ["Next.js", "Supabase", "PIX", "PWA", "Tailwind"]
 numeros:
   - { valor: "2", rotulo: "lojas montadas sobre o mesmo modelo" }
   - { valor: "259", rotulo: "testes automatizados" }
-ordem: 13
+ordem: 7
 destaque: false
 ---
 

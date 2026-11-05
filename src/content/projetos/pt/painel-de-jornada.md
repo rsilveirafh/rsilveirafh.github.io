@@ -1,12 +1,12 @@
 ---
 nome: "Painel de jornada da equipe"
 tipo: "painel interno · Seteg"
-grupo: seteg
+frente: software
 resumo: "Painel web que mostra a jornada semanal de cada pessoa a partir dos apontamentos de horas, com cores pela porcentagem da meta."
 stack: ["Next.js", "React", "TypeScript", "Tailwind", "Vercel"]
 numeros:
   - { valor: "4", rotulo: "vistas: semana, pessoa, projeto e calendário" }
-ordem: 9
+ordem: 6
 destaque: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 nome: "banca-simulada"
 tipo: "applied AI"
-grupo: proprio
+frente: ponte
 resumo: "Claude Code plugin that reviews a research proposal the way a thesis committee or grant panel would."
 stack: ["Claude Code plugin", "Markdown", "Python"]
 links:
@@ -11,8 +11,8 @@ numeros:
   - { valor: "8", rotulo: "review axes" }
   - { valor: "12/12", rotulo: "planted errors caught" }
   - { valor: "0", rotulo: "invented quotes" }
-ordem: 11
-destaque: true
+ordem: 25
+destaque: false
 ---
 
 It reads the proposal across eight axes (coherence, method, feasibility, research ethics, references and more), points to the passage, grades the severity and suggests a fix without rewriting. It ends with the questions the committee is likely to ask.

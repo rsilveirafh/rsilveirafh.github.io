@@ -1,7 +1,7 @@
 ---
 nome: "Internal systems consolidation"
 tipo: "platform · Seteg"
-grupo: seteg
+frente: software
 resumo: "Fourteen internal systems became two, including eight request systems used by five departments."
 stack: []
 numeros:

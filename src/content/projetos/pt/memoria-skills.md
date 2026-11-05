@@ -1,7 +1,7 @@
 ---
 nome: "memoria-skills"
 tipo: "IA aplicada"
-grupo: proprio
+frente: software
 resumo: "Plugin do Claude Code que transforma um vault Markdown num sistema de memória com revisão humana."
 stack: ["Claude Code plugin", "Markdown", "Git"]
 links:
@@ -9,7 +9,7 @@ links:
 numeros:
   - { valor: "4", rotulo: "comandos" }
   - { valor: "mai/2026", rotulo: "em uso diário desde" }
-ordem: 15
+ordem: 10
 destaque: false
 ---
 

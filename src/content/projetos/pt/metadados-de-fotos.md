@@ -1,13 +1,13 @@
 ---
 nome: "Extrator de metadados de fotos de campo"
 tipo: "app desktop · Seteg"
-grupo: seteg
+frente: ponte
 resumo: "Programa que lê data, hora e coordenadas das fotos de campo e entrega tudo numa planilha, com o município de cada ponto."
 stack: ["Python", "OCR (Tesseract)", "EXIF", "geocodificação reversa", "Windows"]
 numeros:
   - { valor: "3", rotulo: "camadas de leitura por foto" }
   - { valor: "0", rotulo: "instalação para a equipe" }
-ordem: 7
+ordem: 23
 destaque: false
 ---
 

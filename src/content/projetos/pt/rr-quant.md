@@ -1,7 +1,7 @@
 ---
 nome: "rr-quant"
 tipo: "finanças"
-grupo: proprio
+frente: software
 resumo: "Painel quantitativo pessoal que roda sozinho a cada pregão."
 stack: ["Python", "yfinance", "Vercel"]
 links:
@@ -9,7 +9,7 @@ links:
   - { rotulo: "Painel ao vivo", url: "https://rr-quant.vercel.app" }
 numeros:
   - { valor: "46", rotulo: "ativos por pregão" }
-ordem: 16
+ordem: 9
 destaque: false
 ---
 

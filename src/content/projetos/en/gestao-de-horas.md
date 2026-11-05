@@ -1,7 +1,7 @@
 ---
 nome: "Project and time tracking"
 tipo: "internal product · Seteg"
-grupo: seteg
+frente: software
 resumo: "The project and time management system that replaced a paid tool and is used across the whole company."
 stack: ["Product Owner", "Next.js", "React", "Prisma"]
 numeros:

@@ -1,26 +1,29 @@
 ---
 import Caminho from './Caminho.astro';
-import { ARQUIVOS, urlDe, type Lang } from '../i18n';
-import { GRUPOS } from '../data/perfil';
+import { ARQUIVOS, ROTAS, urlDe, type Lang } from '../i18n';
+import { FRENTES } from '../data/perfil';
 import { projetosDe } from '../lib/projetos';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const lista = await projetosDe(lang);
-const ordem = ['seteg', 'proprio', 'antes', 'pesquisa'] as const;
-const grupos = ordem.map((g) => ({ g, ...GRUPOS[lang][g], itens: lista.filter((p) => p.data.grupo === g) })).filter((x) => x.itens.length);
+const ordem = ['software', 'ponte', 'biologia'] as const;
+const frentes = ordem.map((f) => ({ f, ...FRENTES[lang][f], itens: lista.filter((p) => p.data.frente === f) })).filter((x) => x.itens.length);
 const t = lang === 'pt'
-  ? { h: 'Projetos', p: 'O que construí, com o problema que cada coisa resolve e o meu papel nela.' }
-  : { h: 'Projects', p: 'What I built, the problem each piece solves and my role in it.' };
+  ? { h: 'Projetos', p: 'O que construí, com o problema que cada coisa resolve e o meu papel nela. Nos projetos da Seteg, nomes de sistemas e de clientes ficaram de fora por confidencialidade.', ir: 'Ir para', pubs: 'Publicações recentes' }
+  : { h: 'Projects', p: 'What I built, the problem each piece solves and my role in it. For Seteg projects, system and client names are left out for confidentiality.', ir: 'Jump to', pubs: 'Recent publications' };
 ---
 <Caminho lang={lang} arquivo={ARQUIVOS[lang].projetos} />
 <h1 class="title">{t.h}</h1>
 <p class="lede">{t.p}</p>
-{grupos.map((gr) => (
-  <section class="grupo wide">
-    <h2 class="sec">{gr.titulo}</h2>
-    {gr.nota && <p class="nota">{gr.nota}</p>}
+<nav class="frentes" aria-label={t.ir}>
+  {frentes.map((fr) => <a href={`#${fr.ancora}`}>{fr.titulo} <small>{fr.itens.length}</small></a>)}
+</nav>
+{frentes.map((fr) => (
+  <section class="grupo wide" id={fr.ancora}>
+    <h2 class="sec">{fr.titulo}</h2>
+    <p class="nota">{fr.nota}</p>
     <ul class="plist">
-      {gr.itens.map((p) => (
+      {fr.itens.map((p) => (
         <li>
           <a href={urlDe(p.slug, lang)} data-view={p.slug}>
             <span class="meta"><span class="t">{p.data.nome}</span><span class="kind">{p.data.tipo}</span></span>
@@ -29,5 +32,6 @@ const t = lang === 'pt'
         </li>
       ))}
     </ul>
+    {fr.f === 'biologia' && <p class="mais"><a href={ROTAS[lang].pesquisa} data-view="pesquisa">{t.pubs} →</a></p>}
   </section>
 ))}

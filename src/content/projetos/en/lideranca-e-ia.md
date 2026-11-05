@@ -1,14 +1,14 @@
 ---
 nome: "Leading Innovation, measuring AI"
 tipo: "management · Seteg"
-grupo: seteg
+frente: software
 resumo: "A team of four, an operating manual and the company’s first measurement of what generative AI actually saves."
 stack: ["Claude Code", "Scrum", "ADRs"]
 numeros:
   - { valor: "4", rotulo: "people on the team (3 developers, 1 designer)" }
   - { valor: "~70%", rotulo: "less time on AI-assisted tasks" }
   - { valor: "3", rotulo: "departments measured" }
-ordem: 6
+ordem: 5
 destaque: false
 ---
 

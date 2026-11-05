@@ -1,12 +1,12 @@
 ---
 nome: "Team hours dashboard"
 tipo: "internal dashboard · Seteg"
-grupo: seteg
+frente: software
 resumo: "A web dashboard showing each person’s weekly hours from the time tracking records, coloured by percentage of target."
 stack: ["Next.js", "React", "TypeScript", "Tailwind", "Vercel"]
 numeros:
   - { valor: "4", rotulo: "views: week, person, project and calendar" }
-ordem: 9
+ordem: 6
 destaque: false
 ---
 

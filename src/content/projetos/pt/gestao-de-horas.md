@@ -1,7 +1,7 @@
 ---
 nome: "Gestão de projetos e horas"
 tipo: "produto interno · Seteg"
-grupo: seteg
+frente: software
 resumo: "O sistema de gestão de projetos e horas que substituiu uma ferramenta paga e passou a ser usado pela empresa inteira."
 stack: ["Product Owner", "Next.js", "React", "Prisma"]
 numeros:

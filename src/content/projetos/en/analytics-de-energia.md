@@ -1,10 +1,10 @@
 ---
 nome: "Power generation analytics"
 tipo: "data · Seteg"
-grupo: seteg
+frente: software
 resumo: "Hydropower generation analytics for an energy sector client, served through an API."
 stack: ["Python", "FastAPI", "séries temporais"]
-ordem: 5
+ordem: 4
 destaque: false
 ---
 

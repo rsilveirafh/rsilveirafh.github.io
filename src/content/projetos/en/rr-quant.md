@@ -1,7 +1,7 @@
 ---
 nome: "rr-quant"
 tipo: "finance"
-grupo: proprio
+frente: software
 resumo: "Personal quant dashboard that runs itself every trading session."
 stack: ["Python", "yfinance", "Vercel"]
 links:
@@ -9,7 +9,7 @@ links:
   - { rotulo: "Live dashboard", url: "https://rr-quant.vercel.app" }
 numeros:
   - { valor: "46", rotulo: "assets per session" }
-ordem: 16
+ordem: 9
 destaque: false
 ---
 

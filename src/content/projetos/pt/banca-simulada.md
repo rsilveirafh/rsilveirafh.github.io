@@ -1,7 +1,7 @@
 ---
 nome: "banca-simulada"
 tipo: "IA aplicada"
-grupo: proprio
+frente: ponte
 resumo: "Plugin do Claude Code que revisa um projeto de pesquisa como uma banca faria, do TCC ao concurso docente."
 stack: ["Claude Code plugin", "Markdown", "Python"]
 links:
@@ -11,8 +11,8 @@ numeros:
   - { valor: "8", rotulo: "eixos de avaliação" }
   - { valor: "12/12", rotulo: "erros plantados encontrados" }
   - { valor: "0", rotulo: "citações inventadas" }
-ordem: 11
-destaque: true
+ordem: 25
+destaque: false
 ---
 
 Lê o projeto em oito eixos (coerência, método, viabilidade, ética em pesquisa, referências e outros), aponta o trecho, dá a gravidade e sugere a correção sem reescrever o texto. No fim, lista as perguntas prováveis da arguição.

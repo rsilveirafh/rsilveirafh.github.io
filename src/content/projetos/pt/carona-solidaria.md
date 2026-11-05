@@ -1,7 +1,7 @@
 ---
 nome: "Carona Solidária"
 tipo: "tecnologia cívica"
-grupo: proprio
+frente: software
 resumo: "Caronas voluntárias para eleitores com dificuldade de locomoção no 2º turno de 2026, em três capitais."
 stack: ["JavaScript PWA", "Google Apps Script", "GitHub Pages"]
 links:
@@ -11,7 +11,7 @@ numeros:
   - { valor: "3", rotulo: "capitais" }
   - { valor: "44", rotulo: "motoristas" }
   - { valor: "13", rotulo: "pedidos de carona" }
-ordem: 12
+ordem: 8
 destaque: false
 ---
 

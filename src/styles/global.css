@@ -139,6 +139,12 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .facts--home b { font-size: 1.6rem; }
 .grupo + .grupo { margin-top: .4em; }
 .nota { font-size: .88rem; color: var(--muted); margin: -.4em 0 1em; }
+.frentes { display: flex; flex-wrap: wrap; gap: 8px; margin: -.2em 0 .6em; }
+.frentes a { font: 500 .78rem var(--mono); color: var(--accent); text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; }
+.frentes a:hover { background: var(--accent-soft); border-color: var(--accent); }
+.frentes small { color: var(--muted); margin-left: 4px; }
+.grupo[id] { scroll-margin-top: 1.2em; }
+.mais { font-size: .88rem; margin: 1em 0 0; }
 .galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 1.6em 0; }
 .galeria figure { margin: 0; }
 .galeria img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--accent-soft); }

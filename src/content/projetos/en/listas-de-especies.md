@@ -1,7 +1,7 @@
 ---
 nome: "amphiBR and ReptiliaBR"
 tipo: "open source"
-grupo: proprio
+frente: ponte
 resumo: "Bringing community R packages in line with Brazil’s 2026 official species lists."
 stack: ["R", "pacotes R"]
 links:
@@ -9,7 +9,7 @@ links:
   - { rotulo: "ReptiliaBR (proposal)", url: "https://github.com/omarentiauspe/ReptiliaBR/issues/1" }
 numeros:
   - { valor: "1,251", rotulo: "amphibian species on the 2026 list" }
-ordem: 14
+ordem: 24
 destaque: false
 ---
 

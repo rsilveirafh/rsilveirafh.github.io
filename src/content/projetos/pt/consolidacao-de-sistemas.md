@@ -1,7 +1,7 @@
 ---
 nome: "Consolidação de sistemas internos"
 tipo: "plataforma · Seteg"
-grupo: seteg
+frente: software
 resumo: "Catorze sistemas internos viraram dois, incluindo oito sistemas de solicitação usados por cinco áreas da empresa."
 stack: []
 numeros:

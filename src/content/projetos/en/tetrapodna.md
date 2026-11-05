@@ -1,7 +1,7 @@
 ---
 nome: "tetrapoDNA"
 tipo: "open science"
-grupo: proprio
+frente: ponte
 resumo: "Which Brazilian amphibians, reptiles, birds and mammals still have no public DNA sequence at all?"
 stack: ["R", "taxize", "GitHub Actions", "GitHub Pages"]
 links:
@@ -11,7 +11,7 @@ numeros:
   - { valor: "~4,800", rotulo: "species checked" }
   - { valor: "2", rotulo: "sequence databases (BOLD and GenBank)" }
   - { valor: "weekly", rotulo: "refresh" }
-ordem: 10
+ordem: 20
 destaque: true
 ---
 

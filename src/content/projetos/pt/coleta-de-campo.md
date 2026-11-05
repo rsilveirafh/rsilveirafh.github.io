@@ -1,12 +1,12 @@
 ---
 nome: "Coleta de dados de campo"
 tipo: "suíte de apps · Seteg"
-grupo: seteg
+frente: ponte
 resumo: "Apps que substituem o formulário de papel e a planilha em levantamentos de fauna e flora, para o registro chegar estruturado em vez de ser redigitado semanas depois."
 stack: ["PostgreSQL", "PostGIS", "Supabase (RLS)", "offline-first"]
 numeros:
   - { valor: "offline", rotulo: "funciona sem sinal e sincroniza depois" }
-ordem: 3
+ordem: 21
 destaque: true
 ---
 

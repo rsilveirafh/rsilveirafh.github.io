@@ -1,14 +1,14 @@
 ---
 nome: "Liderança da Inovação e IA medida"
 tipo: "gestão · Seteg"
-grupo: seteg
+frente: software
 resumo: "Um time de quatro pessoas, um manual de operação e a primeira medição do ganho real com IA generativa na empresa."
 stack: ["Claude Code", "Scrum", "ADRs"]
 numeros:
   - { valor: "4", rotulo: "pessoas no time (3 devs e 1 designer)" }
   - { valor: "~70%", rotulo: "menos tempo nas tarefas com IA" }
   - { valor: "3", rotulo: "áreas medidas" }
-ordem: 6
+ordem: 5
 destaque: false
 ---
 

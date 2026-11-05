@@ -1,7 +1,7 @@
 ---
 nome: "Carona Solidária"
 tipo: "civic tech"
-grupo: proprio
+frente: software
 resumo: "Volunteer rides for voters with reduced mobility in Brazil’s 2026 runoff, in three state capitals."
 stack: ["JavaScript PWA", "Google Apps Script", "GitHub Pages"]
 links:
@@ -11,7 +11,7 @@ numeros:
   - { valor: "3", rotulo: "state capitals" }
   - { valor: "44", rotulo: "drivers" }
   - { valor: "13", rotulo: "ride requests" }
-ordem: 12
+ordem: 8
 destaque: false
 ---
 
