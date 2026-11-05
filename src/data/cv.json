@@ -204,6 +204,11 @@
     },
     {
      "curto": true,
+     "pt": "**Pesquisador colaborador do Centro de Conhecimento em Biodiversidade** (rede de pesquisa sobre a biodiversidade brasileira, coordenada pela UFMG), desde 2022, quando entrei pelo pós-doutorado no PPBio. Pela rede: duas cartas na *Science* (2023 e 2024) e um artigo na *Perspectives in Ecology and Conservation* (2026).",
+     "en": "**Collaborating researcher at the Knowledge Center for Biodiversity** (Brazilian biodiversity research network led by UFMG) since 2022, after my PPBio postdoc. Through the network: two letters in *Science* (2023 and 2024) and a paper in *Perspectives in Ecology and Conservation* (2026)."
+    },
+    {
+     "curto": true,
      "pt": "*Pós-doutorado, UNEMAT* (2018–2019): dinâmica de comunidades lenhosas do Cerrado; coorientação, bancas e cursos de R.",
      "en": "*Postdoc, UNEMAT* (2018–2019): woody community dynamics in the Cerrado; co-supervision, thesis committees and R courses."
     },
@@ -765,6 +770,10 @@
   }
  ],
  "vinculos": [
+  {
+   "ano": "2022–atual",
+   "texto": "Pesquisador colaborador do Centro de Conhecimento em Biodiversidade (coordenação de G. Wilson Fernandes, UFMG), a partir do pós-doutorado no PPBio."
+  },
   {
    "ano": "2020–2023",
    "texto": "Sócio-fundador da Consulte um Cientista, consultoria estatística e científica."

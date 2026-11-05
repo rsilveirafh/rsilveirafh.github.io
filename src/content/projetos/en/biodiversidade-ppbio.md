@@ -19,3 +19,5 @@ In my postdoc at UFRN, with the Biodiversity Research Programme (PPBio), I worke
 I built the pipeline that organises Brazil's official checklists of amphibians, reptiles, birds and mammals and matches each species against public genetic data. The first result was the *Panoramas of Brazilian Biodiversity* dashboard, on the genetic coverage of amphibians. That work later became [tetrapoDNA](/en/projects/tetrapodna/), the complete version, refreshed every week.
 
 With the PPBio network, I co-authored a letter in *Science* on the hidden costs of Europe's deforestation policy (2023). In the same line of research, I co-authored the review *Genomics in the Neotropics* (Genetics and Molecular Biology, 2026).
+
+After the postdoc, I remain a collaborating researcher at the [Knowledge Center for Biodiversity](https://www.biodiv.com.br/), the Brazilian biodiversity research network led by UFMG. The network also produced a second letter in *Science*, on Brazil's natural grasslands (2024), and a paper in *Perspectives in Ecology and Conservation* (2026).
