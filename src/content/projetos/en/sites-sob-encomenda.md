@@ -5,8 +5,8 @@ frente: software
 resumo: "Websites for individuals, businesses, labs and research groups: from a single page to several tabs, in one or two languages."
 stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
 links:
-  - { rotulo: "See the templates", url: "https://rsilveirafh.github.io/site-pessoal-modelos/" }
-  - { rotulo: "GitHub", url: "https://github.com/rsilveirafh/site-pessoal-modelos" }
+  - { rotulo: "See the templates", url: "https://rsilveirafh.github.io/modelos-de-site/" }
+  - { rotulo: "GitHub", url: "https://github.com/rsilveirafh/modelos-de-site" }
 numeros:
   - { valor: "2", rotulo: "starting templates" }
   - { valor: "2", rotulo: "languages, if needed" }
