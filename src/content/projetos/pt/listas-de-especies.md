@@ -9,7 +9,7 @@ links:
   - { rotulo: "ReptiliaBR (proposta)", url: "https://github.com/omarentiauspe/ReptiliaBR/issues/1" }
 numeros:
   - { valor: "1.251", rotulo: "espécies de anfíbios na lista de 2026" }
-ordem: 24
+ordem: 25
 destaque: false
 ---
 

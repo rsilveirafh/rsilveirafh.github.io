@@ -6,7 +6,7 @@ resumo: "Apps that replace paper forms and spreadsheets in fauna and flora surve
 stack: ["PostgreSQL", "PostGIS", "Supabase (RLS)", "offline-first"]
 numeros:
   - { valor: "offline", rotulo: "works without signal and syncs later" }
-ordem: 21
+ordem: 22
 destaque: true
 ---
 

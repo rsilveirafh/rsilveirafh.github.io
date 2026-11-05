@@ -9,7 +9,7 @@ links:
   - { rotulo: "ReptiliaBR (proposal)", url: "https://github.com/omarentiauspe/ReptiliaBR/issues/1" }
 numeros:
   - { valor: "1,251", rotulo: "amphibian species on the 2026 list" }
-ordem: 24
+ordem: 25
 destaque: false
 ---
 

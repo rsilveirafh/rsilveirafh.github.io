@@ -7,7 +7,7 @@ stack: ["Python", "OCR (Tesseract)", "EXIF", "geocodificação reversa", "Window
 numeros:
   - { valor: "3", rotulo: "reading layers per photo" }
   - { valor: "0", rotulo: "installs for the team" }
-ordem: 23
+ordem: 24
 destaque: false
 ---
 

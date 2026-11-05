@@ -11,7 +11,7 @@ numeros:
   - { valor: "8", rotulo: "review axes" }
   - { valor: "12/12", rotulo: "planted errors caught" }
   - { valor: "0", rotulo: "invented quotes" }
-ordem: 25
+ordem: 26
 destaque: false
 ---
 

@@ -11,7 +11,7 @@ numeros:
   - { valor: "8", rotulo: "eixos de avaliação" }
   - { valor: "12/12", rotulo: "erros plantados encontrados" }
   - { valor: "0", rotulo: "citações inventadas" }
-ordem: 25
+ordem: 26
 destaque: false
 ---
 

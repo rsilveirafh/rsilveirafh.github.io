@@ -6,7 +6,7 @@ resumo: "Apps que substituem o formulário de papel e a planilha em levantamento
 stack: ["PostgreSQL", "PostGIS", "Supabase (RLS)", "offline-first"]
 numeros:
   - { valor: "offline", rotulo: "funciona sem sinal e sincroniza depois" }
-ordem: 21
+ordem: 22
 destaque: true
 ---
 

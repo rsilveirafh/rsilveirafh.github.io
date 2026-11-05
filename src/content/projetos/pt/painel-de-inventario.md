@@ -7,7 +7,7 @@ stack: ["Next.js", "MSAL", "Microsoft Graph", "SharePoint", "site estático"]
 numeros:
   - { valor: "5 min", rotulo: "entre uma atualização e outra" }
   - { valor: "0", rotulo: "servidores" }
-ordem: 22
+ordem: 23
 destaque: false
 ---
 
