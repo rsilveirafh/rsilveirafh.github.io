@@ -2,7 +2,7 @@
 nome: "Sites sob encomenda"
 tipo: "serviço · sites"
 frente: software
-resumo: "Sites para pessoas, pequenas empresas, laboratórios e grupos de pesquisa: de uma página só a várias abas, em um ou dois idiomas."
+resumo: "Sites para pessoas, empresas, laboratórios e grupos de pesquisa: de uma página só a várias abas, em um ou dois idiomas."
 stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
 links:
   - { rotulo: "Ver os modelos", url: "https://rsilveirafh.github.io/site-pessoal-modelos/" }
@@ -20,7 +20,7 @@ Parto de dois modelos com o mesmo visual. O **Essencial** é uma página só, qu
 As seções mudam conforme quem é dono do site:
 
 - **Pessoas**: sobre, trajetória, portfólio e contato.
-- **Pequenas empresas**: serviços, depoimentos, fotos, localização e WhatsApp.
+- **Empresas**: serviços, depoimentos, fotos, localização e WhatsApp.
 - **Laboratórios e grupos de pesquisa**: equipe, linhas de pesquisa, projetos, publicações e notícias.
 
 O site funciona no celular, pode ficar num domínio próprio ou num endereço gratuito e não tem mensalidade de hospedagem.

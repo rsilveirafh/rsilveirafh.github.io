@@ -2,7 +2,7 @@
 nome: "Websites made to order"
 tipo: "service · websites"
 frente: software
-resumo: "Websites for individuals, small businesses, labs and research groups: from a single page to several tabs, in one or two languages."
+resumo: "Websites for individuals, businesses, labs and research groups: from a single page to several tabs, in one or two languages."
 stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
 links:
   - { rotulo: "See the templates", url: "https://rsilveirafh.github.io/site-pessoal-modelos/" }
@@ -20,7 +20,7 @@ I start from two templates with the same look. **Essential** is a single scrolli
 The sections change with whoever owns the site:
 
 - **Individuals**: about, background, portfolio and contact.
-- **Small businesses**: services, testimonials, photos, location and WhatsApp.
+- **Businesses**: services, testimonials, photos, location and WhatsApp.
 - **Labs and research groups**: team, research lines, projects, publications and news.
 
 The site works on phones, can live on its own domain or a free address, and has no monthly hosting fee.
