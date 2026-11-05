@@ -15,7 +15,11 @@
    "en": "Natal, Brazil · remote"
   },
   "email": "rsilveirafh@gmail.com",
-  "site": "rsilveirafh.github.io",
+  "site": {
+   "pt": "rsilveirafh.github.io",
+   "en": "rsilveirafh.github.io/en"
+  },
+  "site_academico": "rsilveirafh.github.io/projetos/#biologia",
   "linkedin": "linkedin.com/in/rsilveirafh",
   "github": "github.com/rsilveirafh",
   "lattes": "lattes.cnpq.br/6028156427352678"
