@@ -18,4 +18,4 @@ A base reúne vinte anos do monitoramento de desembarque de mais de vinte comuni
 
 Na auditoria da série histórica, encontrei e corrigi erros herdados: distâncias em quilômetros lidas como metros, pesqueiros homônimos com a coordenada do território errado e o ano de 2017 pela metade.
 
-As análises cruzam testes de tendência (Mann-Kendall com pré-branqueamento e Sen) e comparações entre fases do empreendimento (Mann-Whitney) por pesqueiro, pescaria e classe de distância. A triangulação dessas evidências aponta onde a pesca pode ter sido afetada. Os mapas e os quadros dos relatórios também saem do pipeline.
+As análises cruzam testes de tendência (Mann-Kendall com correção de autocorrelação e Sen) e comparações entre fases do empreendimento (Mann-Whitney) por pesqueiro, pescaria e classe de distância. A triangulação dessas evidências aponta onde a pesca pode ter sido afetada. Os mapas e os quadros dos relatórios também saem do pipeline.

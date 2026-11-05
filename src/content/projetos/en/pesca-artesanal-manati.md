@@ -18,4 +18,4 @@ The database covers twenty years of landing monitoring in more than twenty fishi
 
 Auditing the historical series, I found and fixed inherited errors: distances in kilometres read as metres, fishing grounds sharing a name with the coordinates of the wrong region, and 2017 only half there.
 
-The analyses combine trend tests (Mann-Kendall with pre-whitening, and Sen's slope) with comparisons between project phases (Mann-Whitney), by fishing ground, fishery and distance class. Triangulating that evidence points to where fishing may have been affected. The maps and tables in the reports also come out of the pipeline.
+The analyses combine trend tests (Mann-Kendall corrected for autocorrelation, and Sen's slope) with comparisons between project phases (Mann-Whitney), by fishing ground, fishery and distance class. Triangulating that evidence points to where fishing may have been affected. The maps and tables in the reports also come out of the pipeline.
