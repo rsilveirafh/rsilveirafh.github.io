@@ -6,7 +6,6 @@ resumo: "Sites para pessoas, empresas, laboratórios e grupos de pesquisa: de um
 stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"]
 links:
   - { rotulo: "Ver os modelos", url: "https://rsilveirafh.github.io/modelos-de-site/" }
-  - { rotulo: "GitHub", url: "https://github.com/rsilveirafh/modelos-de-site" }
 numeros:
   - { valor: "2", rotulo: "modelos de partida" }
   - { valor: "2", rotulo: "idiomas, se precisar" }
