@@ -16,3 +16,5 @@ I did my MSc and PhD in Zoology at UFPB. In the MSc (2012), supervised by Gustav
 In the PhD (2017), supervised by Adrian A. Garda, I used genetic data to reconstruct the population history of *Philodryas nattereri*, a snake of the open habitats of Northeast Brazil.
 
 Along the same lines, I co-authored the study of synchronous demographic changes in the herpetofauna of Northeast Brazil (*Molecular Ecology*, 2017), my most cited paper, and checklists of reptiles and amphibians in protected areas of the Caatinga.
+
+I was an assessor for the Pernambuco state Red List of amphibians and reptiles, at the 2014 workshop that applied the IUCN criteria (snakes group), and I co-authored the state's official lists of threatened species: amphibians (2015) and reptiles (2017).

@@ -16,3 +16,5 @@ Fiz mestrado e doutorado em Zoologia na UFPB. No mestrado (2012), com orientaç�
 No doutorado (2017), com orientação de Adrian A. Garda, usei dados genéticos para reconstruir a história das populações de *Philodryas nattereri*, uma serpente das áreas abertas do Nordeste.
 
 Na mesma linha, sou coautor do estudo sobre mudanças demográficas sincrônicas na herpetofauna do Nordeste (*Molecular Ecology*, 2017), o meu artigo mais citado, e de inventários de répteis e anfíbios em unidades de conservação da Caatinga.
+
+Fui avaliador da Lista Vermelha de anfíbios e répteis de Pernambuco, na oficina de 2014 que aplicou os critérios da IUCN (grupo das serpentes), e sou coautor das listas oficiais de espécies ameaçadas do estado: anfíbios (2015) e répteis (2017).

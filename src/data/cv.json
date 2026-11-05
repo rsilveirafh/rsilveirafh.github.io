@@ -72,8 +72,8 @@
     },
     {
      "curto": true,
-     "pt": "Construí a camada de dados de uma suíte de coleta de campo (PostgreSQL/PostGIS, Supabase com RLS, sincronização offline-first) e o primeiro sistema de gestão de projetos da empresa (Fastify, Prisma, React), com integração ao ERP e 189 testes.",
-     "en": "Built the data layer of a field data collection suite (PostgreSQL/PostGIS, Supabase with RLS, offline-first sync) and the company's first project management system (Fastify, Prisma, React), with ERP integration and 189 tests."
+     "pt": "Desenhei o modelo de dados de uma suíte de coleta de campo (PostgreSQL/PostGIS, Supabase com RLS, sincronização offline-first) e conduzi o primeiro sistema de gestão de projetos da empresa (Fastify, Prisma, React), com integração ao ERP e 189 testes, revisando o código e programando junto quando preciso.",
+     "en": "Designed the data model of a field data collection suite (PostgreSQL/PostGIS, Supabase with RLS, offline-first sync) and led the company's first project management system (Fastify, Prisma, React), with ERP integration and 189 tests, reviewing the code and coding alongside the team when needed."
     },
     {
      "curto": true,
@@ -137,8 +137,13 @@
    "itens": [
     {
      "curto": true,
-     "pt": "Idealizei, construí e mantive o **Nubus**, chatbot de atendimento da empresa na plataforma Blip: **3 a 6 mil usuários únicos por mês** (pico de 10 mil) e avaliação sempre acima de 4,5 de 5 (em geral **4,7 a 4,8**). Fui o ponto focal com a Blip.",
-     "en": "Conceived, built and ran **Nubus**, the company's customer service chatbot on the Blip platform: **3,000 to 6,000 unique users a month** (peak of 10,000) and a rating always above 4.5 out of 5 (usually **4.7 to 4.8**). I was the point of contact with Blip."
+     "pt": "Idealizei, construí e mantive o **Nubus**, chatbot de atendimento da empresa na plataforma Blip: **3 a 6 mil usuários únicos por mês** (pico de 10 mil) e avaliação sempre acima de 4,5 de 5 (em geral **4,7 a 4,8**). Fui o ponto focal com a Blip e automatizei os **relatórios mensais de uso** em R (ggplot2, R Markdown).",
+     "en": "Conceived, built and ran **Nubus**, the company's customer service chatbot on the Blip platform: **3,000 to 6,000 unique users a month** (peak of 10,000) and a rating always above 4.5 out of 5 (usually **4.7 to 4.8**). I was the point of contact with Blip and automated the **monthly usage reports** in R (ggplot2, R Markdown)."
+    },
+    {
+     "curto": true,
+     "pt": "Criei a **previsão mensal de demanda** do atendimento: séries temporais com **Prophet, em R**, para estimar quantas pessoas procurariam o chatbot no mês seguinte. Atendimento ao público, comercial e Diretoria usavam a previsão para se preparar para o mês.",
+     "en": "Built the **monthly demand forecast** for customer service: time series modelling with **Prophet in R** to estimate how many people would reach the chatbot the following month. Customer service, sales and the board used it to prepare for the month ahead."
     },
     {
      "curto": true,
@@ -205,7 +210,12 @@
     {
      "curto": true,
      "pt": "*Mestrado e doutorado em Zoologia, UFPB* (2010–2017): mimetismo e filogeografia de serpentes.",
-     "en": "*MSc and PhD in Zoology, UFPB* (2010–2017): mimicry and phylogeography of snakes."
+     "en": "*MSc and PhD in Zoology, UFPB* (2010–2017): mimicry and phylogeography of snakes, including a one-month research visit to the Natural History Museum, London (2011), surveying its coral snake collection with the museum's researchers."
+    },
+    {
+     "curto": true,
+     "pt": "**Avaliador da Lista Vermelha de anfíbios e répteis de Pernambuco** (oficina de 2014, pelos critérios da IUCN, grupo Serpentes) e coautor das listas oficiais de espécies ameaçadas do estado (anfíbios, 2015; répteis, 2017).",
+     "en": "**Assessor for the Pernambuco state Red List of amphibians and reptiles** (2014 workshop, IUCN criteria, snakes group) and co-author of the state's official lists of threatened species (amphibians, 2015; reptiles, 2017)."
     },
     {
      "curto": true,
@@ -235,8 +245,13 @@
     },
     {
      "curto": true,
-     "pt": "Análise de dados dos **Relatórios de Avaliação de Impacto do gasoduto e da plataforma de Manati sobre a pesca artesanal na Bahia, entregues à Petrobras** (1º ao 4º RAI, 2023–atual): estatísticas de captura, CPUE, custo e renda por pescaria no 1º RAI; no 4º, base de **20 anos de desembarques (cerca de 366 mil viagens)** reconstruída em R a partir de planilhas brutas e de uma base legada em Python, auditoria e correção da série histórica, testes de tendência (Mann-Kendall, Sen) por pesqueiro e distância ao empreendimento, mapas e quadros gerados pelo pipeline.",
-     "en": "Data analysis for the **impact assessment reports on how the Manati gas pipeline and platform affect small-scale fisheries in Bahia, delivered to Petrobras** (1st to 4th report, 2023–present): catch, CPUE, cost and income statistics by fishery in the 1st report; for the 4th, a **20-year landing database (about 366,000 trips)** rebuilt in R from raw spreadsheets and a legacy Python database, an audit and correction of the historical series, trend tests (Mann-Kendall, Sen) by fishing ground and distance to the project, and maps and tables generated by the pipeline."
+     "pt": "Análises ecológicas para o monitoramento de herpetofauna no licenciamento (riqueza, diversidade, similaridade, NMDS, rarefação), com relatórios didáticos em R e Quarto (2023–atual).",
+     "en": "Ecological analyses for herpetofauna monitoring in environmental licensing (richness, diversity, similarity, NMDS, rarefaction), with didactic reports in R and Quarto (2023–present)."
+    },
+    {
+     "curto": true,
+     "pt": "Análise de dados dos **Relatórios de Avaliação de Impacto do gasoduto e da plataforma de Manati sobre a pesca artesanal na Bahia, entregues à Petrobras** (1º ao 4º RAI, 2023–atual): estatísticas de captura, CPUE, custo e renda por pescaria no 1º RAI; no 4º, base de **20 anos de desembarques (mais de 1 milhão de registros**: cerca de 366 mil viagens e 700 mil registros por espécie) reconstruída em R a partir de planilhas brutas e de uma base legada em Python, auditoria e correção da série histórica, testes de tendência (Mann-Kendall, Sen) por pesqueiro e distância ao empreendimento, mapas e quadros gerados pelo pipeline.",
+     "en": "Data analysis for the **impact assessment reports on how the Manati gas pipeline and platform affect small-scale fisheries in Bahia, delivered to Petrobras** (1st to 4th report, 2023–present): catch, CPUE, cost and income statistics by fishery in the 1st report; for the 4th, a **20-year landing database (over 1 million records**: about 366,000 trips and 700,000 species records) rebuilt in R from raw spreadsheets and a legacy Python database, an audit and correction of the historical series, trend tests (Mann-Kendall, Sen) by fishing ground and distance to the project, and maps and tables generated by the pipeline."
     },
     {
      "curto": true,
@@ -347,8 +362,8 @@
    },
    "ano": 2012,
    "detalhe": {
-    "pt": "Mimetismo em serpentes corais. Bolsa CAPES.",
-    "en": "Mimicry in coral snakes. CAPES scholarship."
+    "pt": "Mimetismo em serpentes corais. Bolsa CAPES. Visita de pesquisa de 1 mês ao Natural History Museum (Londres, 2011): levantamento das serpentes-corais da coleção e contato com os pesquisadores do museu.",
+    "en": "Mimicry in coral snakes. CAPES scholarship. One-month research visit to the Natural History Museum, London (2011): survey of the coral snake collection and contact with the museum's researchers."
    }
   },
   {
@@ -450,7 +465,7 @@
     "pt": "Infraestrutura e testes",
     "en": "Infrastructure and testing"
    },
-   "itens": "Docker, nginx, GitHub Actions, Cloudflare, Vitest, pgTAP, testthat"
+   "itens": "Git, Docker, nginx, GitHub Actions, Cloudflare, Vitest, pgTAP, testthat"
   },
   {
    "area": {
@@ -458,8 +473,8 @@
     "en": "Data and analytics"
    },
    "itens": {
-    "pt": "estatística ecológica, dados geoespaciais (QGIS, PostGIS), Power BI, Quarto e R Markdown, inventário de emissões (GHG Protocol)",
-    "en": "ecological statistics, geospatial data (QGIS, PostGIS), Power BI, Quarto and R Markdown, emissions inventory (GHG Protocol)"
+    "pt": "estatística ecológica, dados geoespaciais (QGIS, PostGIS), Power BI, ggplot2, Quarto e R Markdown, inventário de emissões (GHG Protocol)",
+    "en": "ecological statistics, geospatial data (QGIS, PostGIS), Power BI, ggplot2, Quarto and R Markdown, emissions inventory (GHG Protocol)"
    }
   },
   {
@@ -685,6 +700,18 @@
   {
    "ano": 2018,
    "texto": "EIA/RIMA de instalação e de operação (2019): LT 530 kV do Complexo Eólico Ventos de Santa Ângela, PI."
+  },
+  {
+   "ano": 2017,
+   "texto": "Xavier, S.L.C.; Silveira-Filho, R.R. Lista das espécies de répteis ameaçadas de Pernambuco (Resolução SEMAS nº 01/2017)."
+  },
+  {
+   "ano": 2015,
+   "texto": "Xavier, S.L.C.; Silveira-Filho, R.R. Lista das espécies de anfíbios ameaçadas de Pernambuco (Resolução SEMAS nº 01/2015)."
+  },
+  {
+   "ano": 2014,
+   "texto": "Avaliador na Oficina de Avaliação do Estado de Conservação das Espécies de Anfíbios e Répteis de Pernambuco, pelos critérios da IUCN (grupo temático Serpentes)."
   },
   {
    "ano": 2013,
