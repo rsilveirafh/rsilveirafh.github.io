@@ -12,7 +12,7 @@ ordem: 21
 destaque: false
 ---
 
-Since 2023 I have run the data analysis for the Impact Assessment Reports (RAI) on how the Manati gas pipeline and platform affect small-scale fisheries in Todos os Santos Bay and the Baixo Sul region of Bahia, delivered to Petrobras. For the 1st report I produced the fishery indicator statistics (monthly catch, CPUE, production, cost and income by fishery, in both regions), nearly a hundred of its charts; that year the database was built by another consultant, in Python. I also analysed the 2nd and 3rd reports and am working on the 4th.
+Since 2023 I have run the data analysis for the Impact Assessment Reports (RAI) on how the Manati gas pipeline and platform affect small-scale fisheries in Todos os Santos Bay and the Baixo Sul region of Bahia, delivered to Petrobras. I work with Priscilla Malafaia, who leads the writing of the reports. For the 1st report I produced the fishery indicator statistics (monthly catch, CPUE, production, cost and income by fishery, in both regions), nearly a hundred of its charts; that year the database was built by another consultant, in Python. I also analysed the 2nd and 3rd reports and am working on the 4th.
 
 The database covers twenty years of landing monitoring in more than twenty fishing communities: about 366,000 trips, with the catch of each species. For the 4th report I rebuilt it from scratch as an R pipeline: I merged 92 raw spreadsheets from the monitoring system (2021–2024) into the historical series, reverse-engineered the catch and effort rules of the previous database and recalculated the distance from each fishing ground to the pipeline and the platform.
 
