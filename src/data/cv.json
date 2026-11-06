@@ -295,11 +295,14 @@
  ],
  "projetos": [
   {
-   "nome": "tetrapoDNA",
+   "nome": {
+    "pt": "tetrapoDNA e traqueophyDNA",
+    "en": "tetrapoDNA and traqueophyDNA"
+   },
    "curto": true,
    "link": "rsilveirafh.github.io/tetrapoDNA",
-   "pt": "Dashboard público que mostra quais tetrápodes do Brasil (cerca de 4.800 espécies de anfíbios, répteis, aves e mamíferos) ainda não têm nenhuma sequência de DNA no BOLD e no GenBank. Pipeline em R com checagem de sinônimos (CTFB, GBIF) para evitar falsas lacunas, atualização semanal por GitHub Actions e site no GitHub Pages.",
-   "en": "Public dashboard showing which Brazilian tetrapods (about 4,800 amphibian, reptile, bird and mammal species) still have no DNA sequence in BOLD or GenBank. R pipeline with synonym checks (CTFB, GBIF) to avoid false gaps, weekly updates via GitHub Actions and a GitHub Pages site."
+   "pt": "Dashboard público que mostra quais tetrápodes do Brasil (cerca de 4.800 espécies de anfíbios, répteis, aves e mamíferos) ainda não têm nenhuma sequência de DNA no BOLD e no GenBank. Pipeline em R com checagem de sinônimos (CTFB, GBIF) para evitar falsas lacunas, atualização semanal por GitHub Actions e site no GitHub Pages. O *traqueophyDNA*, em construção, aplica o mesmo método às cerca de 35 mil plantas vasculares nativas da Flora e Funga do Brasil, com sinônimos do WCVP e da taxonomia do NCBI.",
+   "en": "Public dashboard showing which Brazilian tetrapods (about 4,800 amphibian, reptile, bird and mammal species) still have no DNA sequence in BOLD or GenBank. R pipeline with synonym checks (CTFB, GBIF) to avoid false gaps, weekly updates via GitHub Actions and a GitHub Pages site. *traqueophyDNA*, under construction, applies the same method to the roughly 35,000 native vascular plants in Flora e Funga do Brasil, with synonyms from WCVP and the NCBI taxonomy."
   },
   {
    "nome": "claude-plugins",
@@ -319,12 +322,13 @@
   },
   {
    "nome": {
-    "pt": "Lojas virtuais para pequenos negócios",
-    "en": "Online stores for small businesses"
+    "pt": "Lojas virtuais e sites sob encomenda",
+    "en": "Online stores and custom websites"
    },
    "curto": true,
-   "pt": "Modelo de loja para confeitarias (Next.js, Supabase, PIX, PWA), com configurador de produtos e precificação no backend. Duas lojas em desenvolvimento.",
-   "en": "A store template for confectioneries (Next.js, Supabase, PIX instant payments, PWA), with a product configurator and server-side pricing. Two stores in development."
+   "link": "rsilveirafh.github.io/modelos-de-site",
+   "pt": "Duas lojas de confeitarias no ar desde agosto de 2026, sobre o mesmo modelo (Next.js, Supabase, PIX, PWA): configurador de produtos, preço calculado no servidor, painel de pedidos em tempo real e 259 testes automatizados. Faço também sites para pessoas, empresas e laboratórios a partir de dois modelos próprios, em um ou dois idiomas.",
+   "en": "Two confectionery stores live since August 2026, built on the same template (Next.js, Supabase, PIX instant payments, PWA): product configurator, server-side pricing, a real-time order panel and 259 automated tests. I also build websites for individuals, businesses and research labs from two templates of my own, in one or two languages."
   },
   {
    "nome": "Carona Solidária",
