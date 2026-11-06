@@ -323,7 +323,7 @@
     "en": "Online stores for small businesses"
    },
    "curto": true,
-   "pt": "Modelo de loja para confeitarias (Next.js, Supabase, PIX, PWA), com configurador de produtos e precificação no back-end. Duas lojas em desenvolvimento.",
+   "pt": "Modelo de loja para confeitarias (Next.js, Supabase, PIX, PWA), com configurador de produtos e precificação no backend. Duas lojas em desenvolvimento.",
    "en": "A store template for confectioneries (Next.js, Supabase, PIX instant payments, PWA), with a product configurator and server-side pricing. Two stores in development."
   },
   {
@@ -449,28 +449,28 @@
     "pt": "Linguagens",
     "en": "Languages"
    },
-   "itens": "TypeScript, JavaScript, Python, R, SQL (PL/pgSQL), HTML, CSS, DAX, Power Query (M), Shell"
+   "itens": "TypeScript, Python, R, SQL (PL/pgSQL), HTML, CSS, Shell"
   },
   {
    "area": {
-    "pt": "Back-end e dados",
-    "en": "Back end and data"
+    "pt": "Backend",
+    "en": "Backend"
    },
-   "itens": "Node.js (Fastify, Express), FastAPI, Prisma, Drizzle, Zod, PostgreSQL (PostGIS, pgvector, RLS), Supabase, Firebase, Redis, BullMQ, PowerSync (offline-first)"
+   "itens": "Node.js, FastAPI, Prisma, PostgreSQL, Supabase, Redis, PowerSync"
   },
   {
    "area": {
-    "pt": "Front-end e mobile",
-    "en": "Front end and mobile"
+    "pt": "Frontend e mobile",
+    "en": "Frontend and mobile"
    },
-   "itens": "React, Next.js, Vite, Tailwind, shadcn/ui, PWA, Capacitor (Android), Shiny (golem)"
+   "itens": "React, Next.js, Tailwind, PWA, Capacitor (Android), Shiny"
   },
   {
    "area": {
     "pt": "Infraestrutura e testes",
     "en": "Infrastructure and testing"
    },
-   "itens": "Git, Docker, nginx, GitHub Actions, Cloudflare, Vitest, pgTAP, testthat"
+   "itens": "Git, Docker, nginx, GitHub Actions, Cloudflare, Vitest, testthat"
   },
   {
    "area": {
@@ -478,8 +478,8 @@
     "en": "Data and analytics"
    },
    "itens": {
-    "pt": "estatística ecológica, dados geoespaciais (QGIS, PostGIS), Power BI, ggplot2, Quarto e R Markdown, inventário de emissões (GHG Protocol)",
-    "en": "ecological statistics, geospatial data (QGIS, PostGIS), Power BI, ggplot2, Quarto and R Markdown, emissions inventory (GHG Protocol)"
+    "pt": "estatística ecológica, dados geoespaciais (QGIS, PostGIS), Power BI (DAX, Power Query), ggplot2, Quarto e R Markdown, inventário de emissões (GHG Protocol)",
+    "en": "ecological statistics, geospatial data (QGIS, PostGIS), Power BI (DAX, Power Query), ggplot2, Quarto and R Markdown, emissions inventory (GHG Protocol)"
    }
   },
   {
@@ -488,8 +488,8 @@
     "en": "Applied AI"
    },
    "itens": {
-    "pt": "desenvolvimento com agentes de IA (Claude Code), skills e hooks próprios, chatbots (Blip), medição de ganho de produtividade, política de uso de IA",
-    "en": "agent-assisted development (Claude Code), custom skills and hooks, chatbots (Blip), productivity gain measurement, AI usage policy"
+    "pt": "desenvolvimento com agentes de IA (Claude Code), chatbots (Blip), adoção de IA em equipe",
+    "en": "agent-assisted development (Claude Code), chatbots (Blip), team AI adoption"
    }
   },
   {
@@ -498,8 +498,8 @@
     "en": "Product and management"
    },
    "itens": {
-    "pt": "Product Owner, levantamento de requisitos, ADRs, Scrum, PMI, pré-venda e propostas de P&D",
-    "en": "Product Owner, requirements gathering, ADRs, Scrum, PMI, pre-sales and R&D grant proposals"
+    "pt": "Product Owner, levantamento de requisitos, ADRs, Scrum, gestão de projetos (PMI), pré-venda e propostas de P&D",
+    "en": "Product Owner, requirements gathering, ADRs, Scrum, project management (PMI), pre-sales and R&D grant proposals"
    }
   }
  ],
