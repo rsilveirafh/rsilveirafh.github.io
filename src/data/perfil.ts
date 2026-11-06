@@ -15,7 +15,6 @@ export const SOBRE = {
       'Sou biólogo, com doutorado em Zoologia e dois pós-doutorados, e trabalho com dados e desenvolvimento de software desde 2020. Nos últimos dois anos, liderei a área de Inovação de uma consultoria ambiental como Product Owner e Tech Lead.',
       'Programo em TypeScript, Python e R. Trabalho com escopo claro, critérios de aceite e decisões documentadas, e uso IA generativa no desenvolvimento com o ganho medido.',
     ],
-    busca: 'Busco vagas em dados, produto e IA aplicada, de preferência remotas.',
     botao: 'Falar comigo',
     numerosTitulo: 'Em números',
     numeros: [
@@ -39,7 +38,6 @@ export const SOBRE = {
       'I am a biologist with a PhD in Zoology and two postdocs, and I have worked in data and software development since 2020. For the last two years I led the Innovation area of an environmental consultancy as Product Owner and Tech Lead.',
       'I code in TypeScript, Python and R. I work with clear scope, acceptance criteria and documented decisions, and I use generative AI in development with the gain measured.',
     ],
-    busca: 'Looking for roles in data, product and applied AI, preferably remote.',
     botao: 'Get in touch',
     numerosTitulo: 'By the numbers',
     numeros: [

@@ -98,8 +98,7 @@ export function iniciarTerminal(navegar: Navegar) {
   function saida(v: string) {
     const pt = st.lang === 'pt';
     if (v === 'sobre') {
-      print(`<span class="hi">Ricardo Silveira</span> · ${pt ? 'biólogo (PhD), cientista de dados e desenvolvedor' : 'biologist (PhD), data scientist and developer'}`,
-        `<span class="dim">${pt ? 'em busca de vagas em dados, produto e IA aplicada' : 'looking for roles in data, product and applied AI'}</span>`, nota());
+      print(`<span class="hi">Ricardo Silveira</span> · ${pt ? 'biólogo (PhD), cientista de dados e desenvolvedor' : 'biologist (PhD), data scientist and developer'}`, nota());
     } else if (v === 'projetos') {
       const w = Math.max(...projetos().map((p) => p.slug.length)) + 3;
       print(`<span class="dim">${dados.arquivos[st.lang].projetos}  (${projetos().length})</span>`,

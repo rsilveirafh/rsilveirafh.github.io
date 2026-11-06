@@ -12,7 +12,6 @@ const destaques = (await projetosDe(lang)).filter((p) => p.data.destaque);
 <h1 class="name">Ricardo Rodrigues da Silveira Filho</h1>
 <p class="role">{t.papel}</p>
 {t.lede.map((p, i) => <p class={i === 0 ? 'lede' : ''}>{p}</p>)}
-<p class="avail"><span class="dot" aria-hidden="true"></span><span>{t.busca}</span></p>
 <a class="btn" href={ROTAS[lang].contato} data-view="contato">{t.botao} <small>cat {ARQUIVOS[lang].contato}</small></a>
 <h2 class="sec">{t.numerosTitulo}</h2>
 <div class="facts facts--home wide">
