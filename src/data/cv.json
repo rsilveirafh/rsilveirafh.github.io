@@ -327,8 +327,8 @@
    },
    "curto": true,
    "link": "rsilveirafh.github.io/modelos-de-site",
-   "pt": "Duas lojas de confeitarias no ar desde agosto de 2026, sobre o mesmo modelo (Next.js, Supabase, PIX, PWA): configurador de produtos, preço calculado no servidor, painel de pedidos em tempo real e 259 testes automatizados. Faço também sites para pessoas, empresas e laboratórios a partir de dois modelos próprios, em um ou dois idiomas.",
-   "en": "Two confectionery stores live since August 2026, built on the same template (Next.js, Supabase, PIX instant payments, PWA): product configurator, server-side pricing, a real-time order panel and 259 automated tests. I also build websites for individuals, businesses and research labs from two templates of my own, in one or two languages."
+   "pt": "Duas lojas de confeitarias sobre o mesmo modelo (Next.js, Supabase, PIX, PWA), publicadas e testadas em produção: configurador de produtos, preço calculado no servidor, painel de pedidos em tempo real e 259 testes automatizados. Faço também sites para pessoas, empresas e laboratórios a partir de dois modelos próprios, em um ou dois idiomas.",
+   "en": "Two confectionery stores on the same template (Next.js, Supabase, PIX instant payments, PWA), deployed and tested in production: product configurator, server-side pricing, a real-time order panel and 259 automated tests. I also build websites for individuals, businesses and research labs from two templates of my own, in one or two languages."
   },
   {
    "nome": "Carona Solidária",
