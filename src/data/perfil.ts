@@ -19,7 +19,7 @@ export const SOBRE = {
     numerosTitulo: 'Em números',
     numeros: [
       ['~45', 'pessoas usando o sistema de horas que liderei como PO'],
-      ['14 → 2', 'sistemas internos consolidados'],
+      ['12 + 5', 'sistemas internos e plataformas integradas num portal único'],
       ['~70%', 'menos tempo em tarefas com IA, medido nas horas apontadas'],
       ['3–6 mil', 'usuários por mês no chatbot que criei'],
     ],
@@ -42,7 +42,7 @@ export const SOBRE = {
     numerosTitulo: 'By the numbers',
     numeros: [
       ['~45', 'people using the time tracking system I led as PO'],
-      ['14 → 2', 'internal systems consolidated'],
+      ['12 + 5', 'internal systems and integrated platforms in one portal'],
       ['~70%', 'less time on AI-assisted tasks, measured in logged hours'],
       ['3–6k', 'monthly users of the chatbot I built'],
     ],
