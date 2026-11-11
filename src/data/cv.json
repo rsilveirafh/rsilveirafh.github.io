@@ -77,8 +77,8 @@
     },
     {
      "curto": true,
-     "pt": "Desenvolvi o módulo de metas de uma plataforma SaaS de gestão ESG financiada por edital de inovação e conduzi as entregas finais até o deploy em produção.",
-     "en": "Developed the goals module of an ESG management SaaS platform funded by an innovation grant, and drove the final deliveries through to production deployment."
+     "pt": "Fui o gestor, pela empresa, de uma plataforma SaaS de gestão ESG **financiada pela FINEP**, com o SENAI: conduzi as cerimônias Scrum com o desenvolvedor, desenvolvi o módulo de metas, levei as entregas finais à produção, fiz a prestação de contas mensal e escrevi o relatório de encerramento.",
+     "en": "Managed, on the company side, an ESG management SaaS platform **funded by FINEP** (Brazil's innovation agency) with SENAI: ran the Scrum ceremonies with the developer, built the goals module, took the final deliveries to production, prepared the monthly progress reports and wrote the closing report."
     },
     {
      "curto": true,
@@ -87,8 +87,13 @@
     },
     {
      "curto": true,
-     "pt": "Escrevi o **manual de operação da área**: padrão de escrita de requisitos, fluxo de git, manutenção dos quadros de projeto e ciclo de entrega, da demanda ao repasse.",
-     "en": "Wrote the area's **operating manual**: how requirements are written, the git workflow, how project boards are kept and the delivery cycle, from request to handover."
+     "pt": "Escrevi o **manual de operação da área**: padrão de escrita de requisitos, fluxo de git, quadros Kanban, ciclo de entrega da demanda ao repasse, onboarding de 5 dias e um gate de escopo (nenhum repositório abre sem escopo aprovado).",
+     "en": "Wrote the area's **operating manual**: how requirements are written, the git workflow, Kanban boards, the delivery cycle from request to handover, a 5-day onboarding and a scope gate (no repository opens without an approved scope)."
+    },
+    {
+     "curto": true,
+     "pt": "Escrevi propostas de fomento: o Anexo I de uma chamada de P&D da ANEEL (orçamento, cronograma, contrapartida e indicadores) e a estrutura de uma proposta à FINEP em IA generativa. Montei também o pacote técnico para o registro de dois softwares no INPI.",
+     "en": "Wrote funding proposals: Annex I of an ANEEL R&D call (budget, schedule, matching funds and indicators) and the structure of a FINEP proposal on generative AI. Also prepared the technical package to register two software products with INPI (Brazil's IP office)."
     },
     {
      "curto": true,
@@ -502,8 +507,8 @@
     "en": "Product and management"
    },
    "itens": {
-    "pt": "Product Owner, levantamento de requisitos, ADRs, Scrum, gestão de projetos (PMI), pré-venda e propostas de P&D",
-    "en": "Product Owner, requirements gathering, ADRs, Scrum, project management (PMI), pre-sales and R&D grant proposals"
+    "pt": "Product Owner, levantamento de requisitos, ADRs, Scrum, Kanban, gestão de projetos (PMI), pré-venda, propostas de P&D e de fomento (FINEP, ANEEL)",
+    "en": "Product Owner, requirements gathering, ADRs, Scrum, Kanban, project management (PMI), pre-sales, R&D and funding proposals (FINEP, ANEEL)"
    }
   }
  ],

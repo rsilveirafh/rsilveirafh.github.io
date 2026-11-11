@@ -3,7 +3,7 @@ nome: "Liderança da Inovação e IA medida"
 tipo: "gestão · Seteg"
 frente: software
 resumo: "Um time de quatro pessoas, um manual de operação e a primeira medição do ganho real com IA generativa na empresa."
-stack: ["Claude Code", "Scrum", "ADRs"]
+stack: ["Claude Code", "Scrum", "Kanban", "ADRs"]
 numeros:
   - { valor: "4", rotulo: "pessoas no time (3 devs e 1 designer)" }
   - { valor: "~70%", rotulo: "menos tempo nas tarefas com IA" }
@@ -16,4 +16,6 @@ Coordenei o time de Inovação, com gestão direta de uma desenvolvedora e plano
 
 Medi o ganho com IA generativa em três áreas da empresa a partir das horas apontadas: cerca de 70% menos tempo nas tarefas avaliadas. Também escrevi a primeira política de uso de IA da empresa.
 
-Escrevi ainda o manual de operação do time: como um requisito é escrito, como o git é usado, como os quadros de projeto são mantidos e qual é o ciclo da entrega, da demanda ao repasse.
+Escrevi ainda o manual de operação do time: como um requisito é escrito, como o git é usado, como os quadros Kanban são mantidos e qual é o ciclo da entrega, da demanda ao repasse. O manual traz um onboarding de 5 dias e um gate de escopo: nenhum repositório abre sem escopo aprovado.
+
+Na captação, escrevi o Anexo I de uma proposta para uma chamada de P&D da ANEEL (orçamento, cronograma, contrapartida e indicadores) e estruturei uma proposta à FINEP em IA generativa.
