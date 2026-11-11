@@ -16,6 +16,7 @@ export const SOBRE = {
       'Programo em TypeScript, Python e R. Trabalho com escopo claro, critérios de aceite e decisões documentadas, e uso IA generativa no desenvolvimento com o ganho medido.',
     ],
     botao: 'Falar comigo',
+    fora: ['Fora do trabalho, fiz vozes adicionais no curta de animação', 'Duna', 'https://www.instagram.com/dunacurta/'],
     numerosTitulo: 'Em números',
     numeros: [
       ['~45', 'pessoas usando o sistema de horas que liderei como PO'],
@@ -39,6 +40,7 @@ export const SOBRE = {
       'I code in TypeScript, Python and R. I work with clear scope, acceptance criteria and documented decisions, and I use generative AI in development with the gain measured.',
     ],
     botao: 'Get in touch',
+    fora: ['Outside work, I did additional voices for the animated short film', 'Duna', 'https://www.instagram.com/dunacurta/'],
     numerosTitulo: 'By the numbers',
     numeros: [
       ['~45', 'people using the time tracking system I led as PO'],
@@ -76,7 +78,7 @@ export const PESQUISA = {
   pt: {
     titulo: 'Pesquisa',
     texto: [
-      'Antes dos dados e do software, foram mais de dez anos de pesquisa em biologia. Mestrado e doutorado em Zoologia na UFPB, sobre mimetismo e filogeografia de serpentes. Depois, dois pós-doutorados: ecologia vegetal no Cerrado, na UNEMAT, e conservação, biodiversidade e bioinformática na UFRN, junto ao PPBio.',
+      'Antes dos dados e do software, foram mais de dez anos de pesquisa em biologia. Mestrado e doutorado em Zoologia na UFPB, sobre mimetismo e filogeografia de serpentes. Depois, dois pós-doutorados: ecologia vegetal no Cerrado, na UNEMAT, e conservação, biodiversidade e bioinformática na UFRN, junto ao PPBio. Desde 2022, sou pesquisador colaborador do Centro de Conhecimento em Biodiversidade, rede de pesquisa coordenada pela UFMG.',
       'São 15 artigos revisados por pares e 1 aceito, incluindo duas cartas na Science (2023 e 2024). Aqui estão os trabalhos dos últimos três anos; a lista completa está no Lattes.',
     ],
     publicacoes: 'Publicações recentes',
@@ -90,7 +92,7 @@ export const PESQUISA = {
   en: {
     titulo: 'Research',
     texto: [
-      'Before data and software came more than ten years of biology research. An MSc and a PhD in Zoology at UFPB, on mimicry and phylogeography of snakes. Then two postdocs: plant ecology in the Cerrado at UNEMAT, and conservation, biodiversity and bioinformatics at UFRN with PPBio.',
+      'Before data and software came more than ten years of biology research. An MSc and a PhD in Zoology at UFPB, on mimicry and phylogeography of snakes. Then two postdocs: plant ecology in the Cerrado at UNEMAT, and conservation, biodiversity and bioinformatics at UFRN with PPBio. Since 2022 I have been a collaborating researcher at the Knowledge Center for Biodiversity, a research network led by UFMG.',
       'That adds up to 15 peer-reviewed papers and 1 accepted, including two letters in Science (2023 and 2024). Below is the work from the last three years; the full list is on Lattes.',
     ],
     publicacoes: 'Recent publications',
