@@ -22,7 +22,7 @@ interface Props {
 const { lang, view, secao, titulo, descricao } = Astro.props;
 const outro: Lang = lang === 'pt' ? 'en' : 'pt';
 const ui = UI[lang];
-const title = titulo ? `${titulo} · Ricardo Silveira` : 'Ricardo Rodrigues da Silveira Filho';
+const title = titulo ? `${titulo} · Ricardo Rodrigues` : 'Ricardo Rodrigues da Silveira Filho';
 const desc = descricao ?? ui.descricao;
 const canonical = new URL(urlDe(view, lang), Astro.site);
 const alternativo = new URL(urlDe(view, outro), Astro.site);
@@ -55,7 +55,7 @@ const alternativo = new URL(urlDe(view, outro), Astro.site);
         <div class="bezel">
           <div class="screen doc">
             <header class="doc-top">
-              <a class="brand" href={ROTAS[lang].sobre} data-view="sobre">Ricardo Silveira</a>
+              <a class="brand" href={ROTAS[lang].sobre} data-view="sobre">Ricardo Rodrigues</a>
               <nav class="nav" aria-label={ui.secoes}>
                 {SECOES.map((s) => (
                   <a href={ROTAS[lang][s]} data-view={s} aria-current={s === secao ? 'page' : undefined}>

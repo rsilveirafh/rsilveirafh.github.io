@@ -1,6 +1,6 @@
 # rsilveirafh.github.io
 
-Portfólio de Ricardo Silveira, em duas telas: à esquerda um terminal, à direita o monitor com o conteúdo. As duas andam juntas. Um clique no monitor digita o comando equivalente no terminal, e um comando no terminal abre a página no monitor. No celular o terminal vira uma barra embaixo.
+Portfólio de Ricardo Rodrigues, em duas telas: à esquerda um terminal, à direita o monitor com o conteúdo. As duas andam juntas. Um clique no monitor digita o comando equivalente no terminal, e um comando no terminal abre a página no monitor. No celular o terminal vira uma barra embaixo.
 
 No ar em **https://rsilveirafh.github.io**, em português (`/`) e inglês (`/en/`).
 
